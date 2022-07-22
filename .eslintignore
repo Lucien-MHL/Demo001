@@ -1,0 +1,7 @@
+/dist
+/node_modules
+*.html
+*.scss
+*.json
+webpack.config.js
+.eslintrc.js
