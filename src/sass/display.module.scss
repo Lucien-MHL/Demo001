@@ -1,0 +1,14 @@
+.container {
+  max-width: 1723px;
+  margin: 0 auto;
+
+  .dailyOrYear {
+    font-size: 24px;
+    font-weight: 600;
+
+    li {
+      display: inline-block;
+      padding: 69px;
+    }
+  }
+}
