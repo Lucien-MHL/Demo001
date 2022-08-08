@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  // outline: 1px solid red;
+}
+
+.backImg {
+  height: 100vh;
+  background: url('https://cdn.discordapp.com/attachments/993322705799630859/1004286257557418034/19129825815_4377110d39_o.jpg')
+    center / cover;
+  display: flex;
+  align-items: center;
+
+  .container {
+    max-width: 80vw;
+    margin: 0 auto;
+    height: calc(100vh - 63.39px);
+    background-color: #eee;
+  }
+}

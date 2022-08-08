@@ -1,14 +1,33 @@
-.container {
-  max-width: 1723px;
-  margin: 0 auto;
+.display {
+  position: relative;
 
   .dailyOrYear {
-    font-size: 24px;
     font-weight: 600;
+    width: 396px;
+    display: flex;
+    justify-content: space-around;
+    margin: 21px auto 0;
 
     li {
-      display: inline-block;
-      padding: 69px;
+      font-size: 24px;
+      padding: 14px 72px 7px;
+      cursor: pointer;
+    }
+  }
+
+  .cards {
+    margin-top: 14px;
+    height: 81px;
+    display: flex;
+
+    li {
+      font-size: 2rem;
+      text-align: center;
+      line-height: 2.5;
+      width: 238px;
+      height: 100%;
+      background: #ccc;
+      margin-right: 61px;
     }
   }
 }

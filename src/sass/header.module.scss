@@ -1,41 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  //   outline: 1px solid #f00;
-  list-style: none;
-  text-decoration: none;
-  color: #000;
-}
-
 .header {
-  width: 100%;
-  height: 163px;
+  padding-top: 36px;
+  .userList {
+    display: flex;
+    justify-content: space-between;
 
-  .container {
-    max-width: 1723px;
-    margin: 0 auto;
-    padding-top: 37px;
-
-    .userList {
-      display: flex;
-      justify-content: space-between;
-
-      .text {
-        padding: 14px;
-        font-size: 20px;
-      }
+    .text {
+      padding: 14px;
+      padding-bottom: 12px;
+      font-size: 20px;
     }
+  }
 
-    .menu {
-      width: 550px;
-      display: flex;
-      margin: 0 auto;
-      justify-content: space-between;
+  .menu {
+    width: 730px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0;
+    justify-content: space-between;
 
-      li {
-        font-size: 1.5rem;
-      }
+    a {
+      display: block;
+      font-size: 24px;
     }
   }
 }
