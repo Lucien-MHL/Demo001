@@ -1,45 +1,26 @@
-import React, { useRef } from 'react'
-import { useDispatch } from 'react-redux'
-import styles from '../sass/search.module.scss'
-import { valueFilter } from '../features/Filter/index'
+import React from 'react'
+import styles from '../sass/components/search.module.scss'
 
 function Search() {
-  const dispatch = useDispatch()
-  const filter = JSON.parse(window.sessionStorage.getItem('filter'))
-  const data = useRef('')
-
   return (
-    <div className={styles.filterBox}>
-      <input type='text' placeholder='🍳 關鍵字搜尋' />
-      <ul>
-        <li> </li>
-        <li>
-          <select
-            name='list'
-            ref={data}
-            onChange={() => {
-              dispatch(valueFilter(data.current.value))
-            }}
-          >
-            <option value='all'>全部</option>
-            <optgroup label='依類型顯示'>
-              {filter.type.map((item) => (
-                <option key={item.id} value={item.id}>{`${item.name}`}</option>
-              ))}
-            </optgroup>
-            <optgroup label='依地區顯示'>
-              {filter.region.map((item) => (
-                <option key={item.id} value={item.id}>{`${item.name}`}</option>
-              ))}
-            </optgroup>
-            <optgroup label='自定義'>
-              {filter.customsGroup.map((item) => (
-                <option key={item.id} value={item.id}>{`${item.name}`}</option>
-              ))}
-            </optgroup>
-          </select>
-        </li>
-      </ul>
+    <div className={styles.search_component}>
+      <button className={styles.magnifier} type='button'>
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          viewBox='0 0 24 24'
+          width='21'
+          height='21'
+        >
+          <g id='_01_align_center' data-name='01 align center'>
+            <path d='M24,22.586l-6.262-6.262a10.016,10.016,0,1,0-1.414,1.414L22.586,24ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z' />
+          </g>
+        </svg>
+      </button>
+      <input
+        className={styles.searchBar}
+        type='search'
+        placeholder='關鍵字搜尋...'
+      />
     </div>
   )
 }

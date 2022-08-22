@@ -1,26 +1,30 @@
-import React, { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
+import React from 'react'
 import Header from '../components/Header.jsx'
-import Capacity from '../components/Capacity.jsx'
-import Display from '../components/Display.jsx'
-import Stations from '../components/Stations.jsx'
-import styles from '../sass/exhibit.module.scss'
-import { loadingData } from '../features/Exhibit/index'
+import AllCapacity from '../components/AllCapacity.jsx'
+import TimeSwitch from '../components/TimeSwitch.jsx'
+// import ExhibitStations from '../components/ExhibitStations.jsx'
+// import GenreStations from '../components/GenreStations.jsx'
+import DataStations from '../components/DataStations.jsx'
+import Footer from '../components/Footer.jsx'
+import styles from '../sass/main.module.scss'
 
 function Exhibit() {
-  const dispatch = useDispatch()
-  useEffect(() => {
-    dispatch(loadingData())
-  })
+  // const result = 'genre'
+  const result = 'default'
 
   return (
-    <div className={styles.backImg}>
-      <div className={styles.container}>
-        <Header />
-        <Capacity />
-        <Display />
-        <Stations />
+    <div className={styles.container}>
+      <Header />
+      <AllCapacity />
+      <TimeSwitch result={result} />
+      <div
+        className={result === 'genre' ? styles.shrink_hidden : styles.shrink_scroll}
+      >
+        <DataStations />
+        {/* <GenreStations /> */}
+        {/* <ExhibitStations /> */}
       </div>
+      <Footer />
     </div>
   )
 }

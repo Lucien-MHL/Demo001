@@ -1,0 +1,92 @@
+%flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+%inline-block {
+  display: inline-block;
+  // outline: thin solid red;
+}
+
+.card_group {
+  display: flex;
+  flex-wrap: wrap;
+
+  .card {
+    border: 1px solid #3c3c3c;
+    background-color: #fff;
+    margin: 0 0.75% 1.5%;
+    width: 23.5%;
+    height: 282px;
+    padding: 1.25rem;
+
+    .card_header {
+      padding: 1.5rem 0.5rem 0.75rem;
+
+      .first_line {
+        @extend %flex;
+        margin-bottom: 0.5rem;
+
+        .value_name {
+          font-size: 1.25rem;
+          font-weight: 600;
+        }
+
+        .name {
+          font-size: 1.125rem;
+        }
+      }
+
+      .second_line {
+        @extend %flex;
+
+        .value {
+          font-size: 1.5rem;
+          font-weight: 600;
+
+          .unit {
+            font-size: 1.25rem;
+            font-weight: 400;
+            padding-left: 0.5rem;
+          }
+        }
+
+        .type {
+          font-size: 0.875rem;
+          color: #3c3c3c;
+          line-height: 1.8125rem;
+        }
+      }
+    }
+
+    .card_body {
+      .content {
+        // background-color: #ccc;
+        width: 80%;
+        margin: 1.875rem auto 0;
+        display: flex;
+        justify-content: space-between;
+
+        .list {
+          // outline: thin solid red;
+
+          .list_value {
+            font-size: 1.5rem;
+            text-align: center;
+          }
+
+          .list_name {
+            font-size: 0.875rem;
+            text-align: center;
+          }
+
+          .list_unit {
+            padding-left: 0.5rem;
+            font-size: 0.625rem;
+            color: #3c3c3c;
+          }
+        }
+      }
+    }
+  }
+}

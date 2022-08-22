@@ -1,0 +1,63 @@
+$bg-color: #ebebeb;
+$font-primary-color: #000;
+$font-secondary-color: #787878;
+$scrollbar-track-color: #f0f0f0;
+$scrollbar-thumb-color: #444;
+$station-bg-color: #fff;
+
+@mixin reset {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  // letter-spacing: 3px;
+}
+
+@mixin btn_default() {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0.625rem;
+}
+
+@mixin btn_default_text {
+  font-size: 1.25rem;
+  padding-right: 14px;
+}
+
+@mixin capacity_value {
+  font-size: 3.125rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+}
+
+@mixin scrollbar($track-color, $thumb-color) {
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 2 2 6px rgba(0, 0, 0, 0.3);
+    background-color: $track-color;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  overflow-y: overlay;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $thumb-color;
+  }
+}
+
+@mixin single_station_navbar($bgc_color, $border_color) {
+  cursor: pointer;
+  background-color: $bgc_color;
+  border: 1px solid $border_color;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.625rem;
+  border-radius: 4px 4px 0 0;
+  margin-right: 0.25rem;
+  position: relative;
+  top: 0.25rem;
+}

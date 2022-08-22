@@ -1,0 +1,10 @@
+@use '../mainVariable';
+
+.display {
+  @include mainVariable.btn_default;
+  margin: 0 7px;
+
+  .text {
+    @include mainVariable.btn_default_text;
+  }
+}

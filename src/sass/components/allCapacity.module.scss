@@ -1,0 +1,9 @@
+@use '../mainVariable';
+
+.header_bottom {
+  margin-top: 3rem;
+
+  .capacity_value {
+    @include mainVariable.capacity_value;
+  }
+}

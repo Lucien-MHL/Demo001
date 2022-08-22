@@ -1,0 +1,41 @@
+@use '../mainVariable';
+
+.search_component {
+  border-bottom: 1.5px solid mainVariable.$font-primary-color;
+  width: 14rem;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+
+  .magnifier {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    svg {
+      display: block;
+    }
+  }
+
+  .searchBar {
+    border: none;
+    background-color: transparent;
+    padding-left: 13px;
+    height: 100%;
+    width: calc(100% - 21px);
+    font-size: 1.25rem;
+
+    &::placeholder {
+      font-size: 0.875rem;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

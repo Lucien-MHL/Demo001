@@ -1,28 +1,27 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
-import styles from '../sass/display.module.scss'
-import Search from './Search.jsx'
-import { dailyOrYearly } from '../features/Stations'
+import React, { useState } from 'react'
+import styles from '../sass/components/display.module.scss'
 
 function Display() {
-  const dispatch = useDispatch()
-  const solarSource = useSelector((state) => state.stations.solarSource)
+  const [display, setDisplay] = useState('default')
 
+  function handleDisplayBtn() {
+    if (display === 'default') setDisplay('pie')
+    if (display === 'pie') setDisplay('default')
+  }
   return (
-    <div className={styles.display}>
-      <ul className={styles.dailyOrYear}>
-        <li onClick={() => dispatch(dailyOrYearly('daily'))}>今日</li>
-        <li onClick={() => dispatch(dailyOrYearly('yearly'))}>年度</li>
-      </ul>
-      <ul className={styles.cards}>
-        <li>{solarSource.energy}</li>
-        <li>{solarSource.electricitySold}</li>
-        <li>{solarSource.oilEquivalent}</li>
-        <li>{solarSource.co2Reduction}</li>
-        <li>{solarSource.treesPlanted}</li>
-      </ul>
-      <Search />
-    </div>
+    <button type='button' className={styles.display} onClick={handleDisplayBtn}>
+      <span className={styles.text}>顯示</span>
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        id='drop'
+        viewBox='0 0 24 24'
+        width='15'
+        height='15'
+        className={styles.icon}
+      >
+        <path d='M12,17.17a5,5,0,0,1-3.54-1.46L.29,7.54A1,1,0,0,1,1.71,6.12l8.17,8.17a3,3,0,0,0,4.24,0l8.17-8.17a1,1,0,1,1,1.42,1.42l-8.17,8.17A5,5,0,0,1,12,17.17Z' />
+      </svg>
+    </button>
   )
 }
 

@@ -1,0 +1,35 @@
+@use './mainVariable';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  @include mainVariable.reset();
+  color: mainVariable.$font-primary-color;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 87%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  .shrink_hidden {
+    flex-grow: 1;
+    overflow-y: hidden;
+  }
+
+  .shrink_scroll {
+    flex-grow: 1;
+    overflow-y: scroll;
+    @include mainVariable.scrollbar(
+      mainVariable.$scrollbar-track-color,
+      mainVariable.$scrollbar-thumb-color
+    );
+  }
+
+  .sorting {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,93 @@
+@use '../mainVariable';
+
+.time_sorting {
+  .btn_group {
+    display: flex;
+    justify-content: center;
+
+    .btn {
+      border-bottom: 1px solid mainVariable.$font-primary-color;
+
+      button {
+        background-color: transparent;
+        border: none;
+        font-size: 1.5rem;
+        padding: 0 4.375rem;
+        cursor: pointer;
+
+        &.active {
+          border-bottom: 5px solid mainVariable.$font-primary-color;
+        }
+      }
+    }
+  }
+
+  .contain {
+    padding: 0.95rem 0;
+    padding-top: 1.25rem;
+    display: flex;
+
+    .card_group {
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1;
+
+      .card {
+        display: flex;
+        align-items: center;
+
+        %key_value_spacing {
+          padding-right: 0.625rem;
+        }
+
+        .daily_value {
+          font-size: 2.875rem;
+          @extend %key_value_spacing;
+        }
+
+        .yearly_value {
+          font-size: 2.5rem;
+          @extend %key_value_spacing;
+        }
+
+        .key {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+
+          %category {
+            font-weight: bold;
+          }
+
+          %unit {
+            color: mainVariable.$font-secondary-color;
+          }
+
+          .daily_category {
+            @extend %category;
+          }
+
+          .daily_unit {
+            @extend %unit;
+          }
+
+          .yearly_category {
+            @extend %category;
+            font-size: 0.75rem;
+          }
+
+          .yearly_unit {
+            @extend %unit;
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+
+    .sorting {
+      display: flex;
+      align-items: center;
+      margin-left: 2.0625rem;
+    }
+  }
+}
