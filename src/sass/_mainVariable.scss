@@ -33,9 +33,9 @@ $station-bg-color: #fff;
 }
 
 @mixin scrollbar($track-color, $thumb-color) {
-  &::-webkit-scrollbar-track {
-    box-shadow: inset 2 2 6px rgba(0, 0, 0, 0.3);
-    background-color: $track-color;
+  &::-webkit-scrollbar-thumb {
+    background: rgba(91, 91, 91, 0.9);
+    border-radius: 3px;
   }
 
   &::-webkit-scrollbar {
@@ -44,8 +44,9 @@ $station-bg-color: #fff;
 
   overflow-y: overlay;
 
-  &::-webkit-scrollbar-thumb {
-    background-color: $thumb-color;
+  &::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
   }
 }
 
@@ -53,10 +54,12 @@ $station-bg-color: #fff;
   cursor: pointer;
   background-color: $bgc_color;
   border: 1px solid $border_color;
+  color: #a0a0a0;
+  border-bottom: none;
   font-size: 1.25rem;
   font-weight: 700;
   padding: 0.625rem;
-  border-radius: 4px 4px 0 0;
+  border-radius: 10px 10px 0px 0px;
   margin-right: 0.25rem;
   position: relative;
   top: 0.25rem;

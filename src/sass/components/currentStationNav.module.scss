@@ -9,31 +9,23 @@
     margin: 0 auto;
 
     .item {
-      @include mainVariable.single_station_navbar(#f2f2f2, #dbdbdb);
+      @include mainVariable.single_station_navbar(
+        rgba(255, 255, 255, 0.3),
+        rgba(120, 120, 120, 0.9)
+      );
 
       &:hover {
-        background-color: #fff;
-        border: 1px solid #000;
-        border-bottom: none;
         top: 0;
       }
     }
 
     .item_active {
-      @include mainVariable.single_station_navbar(#fff, #000);
+      @include mainVariable.single_station_navbar(
+        rgba(255, 255, 255, 0.55),
+        #a0a0a0
+      );
       top: 0;
-
-      &::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        background-color: #fff;
-        right: 0;
-        left: 0;
-        bottom: -3px;
-        z-index: 1;
-      }
+      color: #3c3c3c;
     }
   }
 

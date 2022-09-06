@@ -5,9 +5,9 @@ import { obj } from '../reducer/a'
 
 function CurrentStationNav() {
   const { SingleStationSwitch } = obj
-  const { active, setActive } = useContext(SingleStationSwitch)
+  const { isActive, setIsActive } = useContext(SingleStationSwitch)
   function handle(e) {
-    setActive(e.target.value)
+    setIsActive(e.target.value)
   }
 
   return (
@@ -16,7 +16,7 @@ function CurrentStationNav() {
         {permissionSingle.map((item) => (
           <button
             type='button'
-            className={active === item.id ? styles.item_active : styles.item}
+            className={isActive === item.id ? styles.item_active : styles.item}
             key={item.id}
             value={item.id}
             onClick={handle}
@@ -25,7 +25,6 @@ function CurrentStationNav() {
           </button>
         ))}
       </nav>
-      <section> </section>
     </div>
   )
 }

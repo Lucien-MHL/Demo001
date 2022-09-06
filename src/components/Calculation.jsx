@@ -3,6 +3,7 @@ import CountUp from 'react-countup'
 import PRdata from './styles/PR_data.jsx'
 import styles from '../sass/components/calculation.module.scss'
 import EnergyAndPrice from './styles/EnergyAndPrice.jsx'
+import DatePicker from './styles/DatePicker.jsx'
 
 function Calculation({ props }) {
   return (
@@ -50,8 +51,25 @@ function Calculation({ props }) {
       <div className={styles.chartAndPhoto}>
         <div className={styles.chart}>
           <EnergyAndPrice />
+          <ul className={styles.legend}>
+            <li className={styles.legend_title}>
+              <span className={styles.bgc}> </span>
+              發電量
+              <span className={styles.unit}> (kWh)</span>
+            </li>
+            <li className={styles.legend_title}>
+              <span className={styles.bgc}> </span>
+              售電金額
+              <span className={styles.unit}> (NTD)</span>
+            </li>
+          </ul>
         </div>
-        <div className={styles.box4}> </div>
+        <div className={styles.pic}>
+          <div className={styles.dateSwitch}>
+            <DatePicker />
+          </div>
+          <img src={props.photo} alt={props.name} />
+        </div>
       </div>
     </div>
   )

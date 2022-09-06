@@ -12,7 +12,7 @@ function AllCapacity() {
 
   return (
     <div className={styles.header_bottom}>
-      <p>總裝置容量</p>
+      <p className={styles.name}>總裝置容量</p>
       <p>
         <CountUp
           className={styles.capacity_value}

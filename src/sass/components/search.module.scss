@@ -1,24 +1,29 @@
 @use '../mainVariable';
 
 .search_component {
-  border-bottom: 1.5px solid mainVariable.$font-primary-color;
-  width: 14rem;
-  height: 25px;
+  width: 190px;
+  height: 52px;
   display: flex;
   align-items: center;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
+  bottom: 2px;
+  left: 196.5px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #a0a0a0;
+  border-radius: 30px;
+  padding: 6px 8px;
 
   .magnifier {
-    border: none;
-    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
     cursor: pointer;
+    padding: 9.5px;
 
     svg {
       display: block;
+      fill: #fff;
     }
   }
 
@@ -28,10 +33,11 @@
     padding-left: 13px;
     height: 100%;
     width: calc(100% - 21px);
-    font-size: 1.25rem;
+    font-size: 20px;
+    color: #515151;
 
     &::placeholder {
-      font-size: 0.875rem;
+      font-size: 20px;
     }
 
     &:focus {

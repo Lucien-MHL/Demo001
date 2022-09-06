@@ -8,15 +8,45 @@
 }
 
 .container {
-  width: 87%;
+  width: 100%;
+  padding: 0 calc((100% - 93.75%) / 2);
   height: 100vh;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  position: relative;
+  background: url('https://frontendstaticfile.blob.core.windows.net/station/20220331T164422-2020034.jpeg')
+    center/ cover;
+
+  %commonContainer {
+    width: 93.75%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    border-radius: 60px 60px 0px 0px;
+    // backdrop-filter: blur(5px);
+  }
+
+  .component_container {
+    @extend %commonContainer;
+    background: rgba(255, 255, 255, 0.55);
+    height: calc(100vh - 345px);
+    border-width: 1px 1px 0px 1px;
+  }
+
+  .current_container {
+    @extend %commonContainer;
+    background: rgba(255, 255, 255, 0.7);
+    height: calc(100% - 363px);
+  }
 
   .shrink_hidden {
     flex-grow: 1;
     overflow-y: hidden;
+    margin: 0 66px;
+    z-index: 40;
   }
 
   .shrink_scroll {
@@ -26,6 +56,8 @@
       mainVariable.$scrollbar-track-color,
       mainVariable.$scrollbar-thumb-color
     );
+    margin: 0 66px;
+    z-index: 20;
   }
 
   .sorting {

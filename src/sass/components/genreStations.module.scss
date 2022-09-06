@@ -14,7 +14,6 @@
 
   .chart {
     width: 50%;
-    background-color: #fff;
     position: relative;
 
     .info {
@@ -66,21 +65,14 @@
     width: 50%;
     height: 100%;
     font-size: 1.25rem;
-    overflow-y: scroll;
-    @include mainVariable.scrollbar(
-      mainVariable.$scrollbar-track-color,
-      mainVariable.$scrollbar-thumb-color
-    );
-    background-color: #fff;
 
     .table_header {
       width: 100%;
+      height: calc((59px / 493.812px) * 100%);
       display: flex;
       padding: 1rem 1.5rem;
       border-bottom: 2px solid #676767;
-      position: sticky;
       top: 0;
-      background-color: #fff;
 
       .name {
         width: 40%;
@@ -102,21 +94,24 @@
     }
 
     .table_body {
-      height: inherit;
+      height: calc(100% - ((59px / 493.812px) * 100%));
+      @include mainVariable.scrollbar(
+        mainVariable.$scrollbar-track-color,
+        mainVariable.$scrollbar-thumb-color
+      );
 
       .row {
-        // background-color: #dadfdf;
         width: 100%;
         display: flex;
-        border-bottom: 1px solid #c2c2c2;
         padding: 0 1.5rem;
+
+        & + .row {
+          border-top: 1px solid #c2c2c2;
+        }
 
         .row_name {
           @extend %row;
           width: 40%;
-          // white-space: nowrap;
-          // text-overflow: ellipsis;
-          // overflow: hidden;
           padding-right: 3rem;
         }
 

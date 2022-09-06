@@ -8,7 +8,7 @@ function PRdata({ value }) {
       type: 'pie',
       backgroundColor: null,
       height: '100%',
-      margin: [20, 20, 20, 20]
+      spacing: [0, 0, 0, 0]
     },
     title: {
       verticalAlign: 'middle',
@@ -51,7 +51,7 @@ function PRdata({ value }) {
             color: '#34237F'
           }
         ],
-        size: '100%',
+        // size: '113.90%',
         innerSize: '65.3%',
         showInLegend: false,
         dataLabels: {
@@ -64,7 +64,18 @@ function PRdata({ value }) {
     }
   }
 
-  return <HighchartsReact highcharts={Highcharts} options={options} />
+  return (
+    <HighchartsReact
+      highcharts={Highcharts}
+      options={options}
+      containerProps={{
+        style: {
+          width: '76.63%',
+          margin: '0 auto'
+        }
+      }}
+    />
+  )
 }
 
 export default PRdata

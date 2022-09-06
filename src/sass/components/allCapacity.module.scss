@@ -1,7 +1,18 @@
 @use '../mainVariable';
 
 .header_bottom {
-  margin-top: 3rem;
+  margin-top: 38px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #a0a0a0;
+  border-radius: 60px;
+  padding: 16px 64px;
+  height: 120px;
+  width: fit-content;
+  font-size: 20px;
+
+  .name {
+    font-weight: 500;
+  }
 
   .capacity_value {
     @include mainVariable.capacity_value;

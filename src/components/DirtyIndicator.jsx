@@ -1,7 +1,7 @@
 import React from 'react'
 
 function DirtyIndicator() {
-  return <div>DirtyIndicator</div>
+  return <h1>DirtyIndicator</h1>
 }
 
 export default DirtyIndicator

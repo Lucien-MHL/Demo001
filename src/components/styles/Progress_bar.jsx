@@ -7,6 +7,12 @@ const progressEffect = (value) => keyframes`
   }
 `
 
+const tooltipAppear = () => keyframes`
+  to {
+    opacity: 1;
+  }
+`
+
 const Section = styled.section`
   width: 100%;
 
@@ -39,6 +45,8 @@ const Section = styled.section`
         background: #fdfdfd;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 1px 2px 2px rgba(0, 0, 0, 0.3);
         position: relative;
+        opacity: 0;
+        animation: ${() => tooltipAppear()} 1s 0.5s forwards;
 
         &::after {
           content: '';
@@ -65,13 +73,13 @@ const Section = styled.section`
   .parentDiv {
     height: 0.75rem;
     width: 100%;
-    background-color: #184b5c;
-    border-radius: 4px;
+    background-color: #34237f;
+    border-radius: 7px;
 
     .childDiv {
       height: 100%;
       width: 0;
-      background-color: #2c83a2;
+      background-color: #cedf83;
       border-radius: 7px;
       animation: ${({ progress }) => progressEffect(progress)} 1s forwards;
     }

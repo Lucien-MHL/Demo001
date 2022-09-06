@@ -4,6 +4,8 @@
   margin-left: auto;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
+  padding-right: 44px;
 
   .copyright {
     width: max-content;

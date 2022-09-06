@@ -15,10 +15,6 @@ const permissionSingle = [
   {
     id: 'E04',
     name: '異常紀錄'
-  },
-  {
-    id: 'E05',
-    name: '髒污指標'
   }
 ]
 
