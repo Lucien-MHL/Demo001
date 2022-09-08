@@ -1,15 +1,18 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
+import StationComparison from '../components/StationComparison.jsx'
+
 import styles from '../sass/main.module.scss'
 
 function Compare() {
-  const render = useRef(false)
   return (
     <div className={styles.container}>
-      <Header isRender={render} />
+      <Header />
 
-      <div className={styles.shrink_hidden}> </div>
+      <div className={styles.shrink_hidden}>
+        <StationComparison />
+      </div>
       <Footer />
     </div>
   )

@@ -21,7 +21,7 @@ module.exports = {
     radix: ['off'],
     'max-len': ['off'],
     'import/prefer-default-export': ['off'],
-    'linebreak-style': ['error', 'windows'],
+    'linebreak-style': ['error', 'window'],
     'jsx-quotes': ['error', 'prefer-single'],
     'no-param-reassign': ['error', { props: false }],
     'comma-dangle': ['error', 'never']

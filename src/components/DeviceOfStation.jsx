@@ -108,7 +108,6 @@ const LegendBox = styled.div`
   margin-right: 0;
   padding: 1.5rem 1rem 0 2.5rem;
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid #a0a0a0;
 
   .time {
     font-size: 12px;
@@ -155,9 +154,10 @@ const SideMenuContainer = styled.section`
   position: absolute;
   top: 26.5rem;
   left: 116px;
-  width: 366px;
+  width: ${({ menu }) => (menu ? '366px' : '24px')};
   height: 650px;
   overflow: hidden;
+  transition: ${({ menu }) => (menu ? 'width 0.1s' : 'width 1.5s')};
 `
 
 const SideMenu = styled.section`
@@ -345,7 +345,7 @@ function DeviceOfStation() {
 
   return (
     <Section>
-      <SideMenuContainer>
+      <SideMenuContainer menu={switchMenu}>
         <SideMenu menu={switchMenu}>
           <h2>參數設定</h2>
           <div className='setting_box'>

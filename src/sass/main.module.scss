@@ -16,7 +16,12 @@
   position: relative;
   background: url('https://frontendstaticfile.blob.core.windows.net/station/20220331T164422-2020034.jpeg')
     center/ cover;
-
+  background: url('https://media.discordapp.net/attachments/993322705799630859/1017276872201093120/unknown.png')
+    center/ cover;
+  // background: url('https://dsegomspoc.azurewebsites.net/public/img/system-default-background.jpg')
+  //   center/ cover;
+  // background: url('../../dist/bgc/asphalt-road-with-4k-space-0v5n16yl6frmmvnk.jfif')
+  //   center/ cover;
   %commonContainer {
     width: 93.75%;
     margin: auto;
@@ -46,7 +51,7 @@
     flex-grow: 1;
     overflow-y: hidden;
     margin: 0 66px;
-    z-index: 40;
+    z-index: 20;
   }
 
   .shrink_scroll {

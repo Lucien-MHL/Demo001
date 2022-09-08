@@ -74,7 +74,7 @@ const Section = styled.section`
       flex-wrap: wrap;
       justify-content: flex-end;
       align-content: space-between;
-      height: 65%;
+      height: 70%;
 
       .card {
         margin-bottom: 1.5rem;
@@ -362,11 +362,6 @@ function MapOfStation() {
             <button
               type='button'
               className={switchClassName(item)}
-              style={
-                {
-                  // backgroundColor: item.id === inverter && '#035b9b'
-                }
-              }
               key={item.id}
               value={item.id}
               onClick={() => setInverter(item.id)}

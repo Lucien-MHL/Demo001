@@ -52,9 +52,9 @@ function EverythingCompare() {
       tickmarkPlacement: 'on',
       tickWidth: 1,
       tickLength: 15,
+      minorTickLength: 100,
       tickColor: '#000',
-      lineColor: '#000',
-      minorTickLength: 100
+      lineColor: '#000'
     },
     yAxis: {
       title: {

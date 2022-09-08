@@ -6,6 +6,8 @@ import Place from '../components/Place.jsx'
 import Genre from '../components/Genre.jsx'
 import Footer from '../components/Footer.jsx'
 
+import PromptMonitoring from '../components/PromptMonitoring.jsx'
+
 function Monitor() {
   return (
     <div className={styles.container}>
@@ -15,8 +17,9 @@ function Monitor() {
         <Place />
         <Genre />
       </section>
-
-      <div className={styles.shrink_hidden}> </div>
+      <div className={styles.shrink_scroll}>
+        <PromptMonitoring warningState={false} />
+      </div>
       <Footer />
     </div>
   )

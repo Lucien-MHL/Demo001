@@ -1,0 +1,66 @@
+@use '../mixins';
+
+.cards_compare {
+  cursor: pointer;
+  padding: 32px;
+  border: 1px solid mixins.$tertiary-color;
+  @include mixins.border-radius(2rem, 2rem, 2rem, 2rem);
+  min-width: 375px;
+  height: auto;
+  margin-right: 1.5rem;
+  @include mixins.flex-wrap(nowrap, column);
+  .content_wrap {
+    @include mixins.flex-align-content(flex-end, space-between);
+    .cards_content {
+      @include mixins.flex-align-content(flex-start, space-between);
+      @include mixins.flex-wrap(nowrap, column);
+      .content_subtitle {
+        font-size: 0.875rem;
+        color: mixins.$tertiary-color;
+      }
+      .content_summary {
+        @include mixins.content_size(3.125rem, bolder, 5px);
+
+        font-size: 50px;
+      }
+    }
+    .cards_right {
+      @include mixins.flex-wrap(nowrap, column);
+      @include mixins.flex-align-content(flex-end, space-between);
+      height: 100%;
+
+      .summary_unit {
+        line-height: 2;
+        color: mixins.$tertiary-color;
+      }
+    }
+  }
+  .cards_average {
+    @include mixins.flex-align-content(flex-start, space-between);
+  }
+  .content_level {
+    @include mixins.content_size(2.5rem, bold, 3px);
+    color: mixins.$tertiary-color;
+    line-height: 1.65;
+    margin-top: 1rem;
+  }
+
+  .cards_station {
+    @include mixins.flex-align-content(flex-end, space-between);
+    @include mixins.flex-wrap(nowrap, column);
+
+    .station_content {
+      line-height: 1.5;
+      @include mixins.flex-align-content(flex-end, space-between);
+      @include mixins.flex-wrap(nowrap, column);
+      margin-top: 1rem;
+
+      .station_name {
+        font-size: 1.25rem;
+      }
+      .station_data {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

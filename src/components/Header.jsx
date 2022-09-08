@@ -5,6 +5,23 @@ import styles from '../sass/components/header.module.scss'
 import permissionAll from '../fakeAPI/fake_permission_all.js'
 
 function Header({ isRender }) {
+  const navLinkClassName = (isActive, id) => {
+    const isAlarm = id === 'M03' && styles.alarm
+    let result
+    switch (isActive) {
+      case true: {
+        result = `${styles.active} ${isAlarm}`
+        break
+      }
+      default: {
+        result = isAlarm
+        break
+      }
+    }
+
+    return result
+  }
+
   return (
     <div className={styles.header}>
       <ul className={styles.header_top}>
@@ -50,7 +67,7 @@ function Header({ isRender }) {
           {permissionAll.map((item) => (
             <NavLink
               to={item.url}
-              className={({ isActive }) => (isActive ? styles.active : '')}
+              className={({ isActive }) => navLinkClassName(isActive, item.id)}
               key={item.id}
             >
               {item.name}

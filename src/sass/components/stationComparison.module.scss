@@ -1,0 +1,77 @@
+@use '../mixins';
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.whole_sec {
+  padding-top: 3.125rem;
+  justify-content: space-between;
+  @include mixins.flex-wrap(nowrap, row);
+  height: 100%;
+
+  .barchart_container {
+    margin-right: 0.75rem;
+    width: 31%;
+    flex-grow: 1;
+    background-color: mixins.$all-transparent-background;
+    @include mixins.flex-wrap(nowrap, column);
+    border: 1px solid mixins.$tertiary-color;
+    @include mixins.border-radius(2rem, 2rem, 0rem, 0rem);
+    border-bottom: none;
+    .chart_title {
+      padding: 1.5rem 2rem 0.75rem;
+      font-size: 1.25rem;
+      text-align: end;
+    }
+    .chart_wrap {
+      height: 88%;
+      padding: 0rem 1.5rem 0rem;
+      overflow-y: overlay;
+
+      &::-webkit-scrollbar {
+        width: 3px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: #f0f0f03e;
+        border-radius: 1.5px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(157, 157, 157);
+        border-radius: 1.5px;
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background: rgb(86, 86, 86);
+      }
+    }
+  }
+
+  .right_container {
+    width: 68.5%;
+    padding: 0 0.75rem;
+    height: 100%;
+    .cards_wrap {
+      height: 364px;
+      display: flex;
+      padding-bottom: 1.5rem;
+
+      .calendar {
+        width: 16.875rem;
+        height: 6.875rem;
+      }
+    }
+    .linechart_container {
+      background-color: mixins.$all-transparent-background;
+      @include mixins.border-radius(2rem, 2rem, 0rem, 0rem);
+      border: 1px solid mixins.$tertiary-color;
+      width: 100%;
+      height: calc(100% - 364px);
+      padding: 1.5rem;
+      padding-top: 2rem;
+      border-bottom: none;
+    }
+  }
+}

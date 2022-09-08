@@ -1,0 +1,53 @@
+@use '../mixins';
+@use '../reset';
+
+body {
+  background-color: rgb(206, 246, 244);
+}
+
+.stations_group {
+  @include mixins.flex-wrap(nowrap, row);
+  @include mixins.flex-align-content(center, center);
+
+  .container_wrap {
+    @include mixins.flex-wrap(nowrap, column);
+    @include mixins.flex-align-content(center, space-between);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .exception_fontz {
+      font-size: 2.5rem;
+      padding-top: 3rem;
+    }
+  }
+  .color_block {
+    .svg_smileFace {
+      position: relative;
+      z-index: 3;
+    }
+
+    .color_block_yellow {
+      width: 6.25rem;
+      height: 6.25rem;
+      border-radius: 3.125rem;
+      background-color: #ffa600;
+      position: absolute;
+      top: 38%;
+      left: 48.7%;
+      z-index: -1;
+    }
+
+    .color_block_red {
+      width: 3.25rem;
+      height: 3.25rem;
+      border-radius: 1.625rem;
+      background-color: #ff4117;
+      position: absolute;
+      top: 42%;
+      left: 46%;
+      z-index: -1;
+    }
+  }
+}
