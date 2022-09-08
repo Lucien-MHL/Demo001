@@ -1,11 +1,15 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react'
+import React, { useState } from 'react'
 import styles from '../sass/components/slideMenu.module.scss'
 import Filter from './Filter.jsx'
 
 function SlideMenu() {
+  const [Toggled, setToggled] = useState(false)
+  // const [select, setSelect] = useState('')
+
+  // const isCheckAll = checkedItems.length === ITEMS.length
   return (
-    <div className={styles.slideMenu}>
+    <div className={Toggled ? styles.slideClose : styles.slideOpen}>
       <div className={styles.edge_left}>
         <div className={styles.title_wrap}>
           <span className={styles.title_choice}>選擇案場</span>
@@ -18,7 +22,6 @@ function SlideMenu() {
                 <input type='checkbox' className={styles.content_item} />
                 <span className={styles.item_text}>屋頂型</span>
               </label>
-
               <svg
                 width='14'
                 height='10.5'
@@ -36,17 +39,52 @@ function SlideMenu() {
             <div className={styles.content_group}>
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>選項一</span>
+                <span className={styles.item_text}>立法院</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>選項二</span>
+                <span className={styles.item_text}>伸評鋼鐵</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>選項三</span>
+                <span className={styles.item_text}>前進國小</span>
+              </label>
+
+              <label>
+                <input type='checkbox' className={styles.content_item} />
+                <span className={styles.item_text}>大肚國小</span>
+              </label>
+
+              <label>
+                <input type='checkbox' className={styles.content_item} />
+                <span className={styles.item_text}>前進國小</span>
+              </label>
+
+              <label>
+                <input type='checkbox' className={styles.content_item} />
+                <span className={styles.item_text}>立法院</span>
+              </label>
+
+              <label>
+                <input type='checkbox' className={styles.content_item} />
+                <span className={styles.item_text}>伸評鋼鐵</span>
+              </label>
+
+              <label>
+                <input type='checkbox' className={styles.content_item} />
+                <span className={styles.item_text}>蘆竹益睿</span>
+              </label>
+
+              <label>
+                <input type='checkbox' className={styles.content_item} />
+                <span className={styles.item_text}>京揚國際ABC棟</span>
+              </label>
+
+              <label>
+                <input type='checkbox' className={styles.content_item} />
+                <span className={styles.item_text}>伸評鋼鐵</span>
               </label>
             </div>
           </div>
@@ -60,7 +98,11 @@ function SlideMenu() {
           </button>
         </div>
       </div>
-      <button type='button' className={styles.edge_btn}>
+      <button
+        type='button'
+        className={Toggled ? styles.edge_btn_close : styles.edge_btn}
+        onClick={() => setToggled(!Toggled)}
+      >
         <svg
           className={styles.slide_arrow}
           width='10'

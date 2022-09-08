@@ -4,11 +4,13 @@ import CompareCards from './CompareCards.jsx'
 import Stationbar from './styles/Station_bar.jsx'
 import StationLineChart from './styles/Station_lineChart.jsx'
 import SlideMenu from './SlideMenu.jsx'
+import DatePicker from './styles/DatePicker.jsx'
 
 function StationComparison() {
   return (
     <section className={styles.whole_sec}>
       <SlideMenu />
+
       <aside className={styles.barchart_container}>
         <p className={styles.chart_title}>平均發電量</p>
         <div className={styles.chart_wrap}>
@@ -19,7 +21,9 @@ function StationComparison() {
         <div className={styles.cards_wrap}>
           <CompareCards />
           <CompareCards />
-          <div className={styles.calendar}> </div>
+          <div className={styles.calendar}>
+            <DatePicker />
+          </div>
         </div>
         <div className={styles.linechart_container}>
           <StationLineChart className={styles.lineChart} />

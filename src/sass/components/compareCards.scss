@@ -4,6 +4,8 @@
   cursor: pointer;
   padding: 32px;
   border: 1px solid mixins.$tertiary-color;
+  background-color: mixins.$all-transparent-background;
+
   @include mixins.border-radius(2rem, 2rem, 2rem, 2rem);
   min-width: 375px;
   height: auto;
