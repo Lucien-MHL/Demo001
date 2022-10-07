@@ -1,6 +1,6 @@
 export const allStationkWp = [
   {
-    name: '立法院',
+    name: '台北中山',
     id: 101,
     stationType: {
       typeId: '0',
@@ -22,7 +22,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '阿公店水庫',
+    name: '台南麻豆',
     id: 102,
     stationType: {
       typeId: '1',
@@ -44,7 +44,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '伸坪鋼鐵',
+    name: '台中梧棲 1',
     id: 103,
     stationType: {
       typeId: '0',
@@ -66,7 +66,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '杰士電池',
+    name: '高雄鳳山',
     id: 104,
     stationType: {
       typeId: '0',
@@ -89,7 +89,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '中州科技大學',
+    name: '桃園平鎮',
     id: 105,
     stationType: {
       typeId: '0',
@@ -111,7 +111,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '光榮國小',
+    name: '宜蘭蘇澳',
     id: 106,
     stationType: {
       typeId: '0',
@@ -133,7 +133,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '前進國小',
+    name: '台南北門',
     id: 107,
     stationType: {
       typeId: '0',
@@ -156,7 +156,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '彰農 彰化農會',
+    name: '台中梧棲 2',
     id: 108,
     stationType: {
       typeId: '0',
@@ -179,7 +179,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '中櫃停車棚',
+    name: 'Zone No.1',
     id: 109,
     stationType: {
       typeId: '0',
@@ -201,7 +201,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '崙東九',
+    name: 'Zone No.2',
     id: 110,
     stationType: {
       typeId: '2',
@@ -245,7 +245,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '內埔國中_地面型',
+    name: 'Zone No.4',
     id: 112,
     stationType: {
       typeId: '2',
@@ -267,7 +267,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '台南北門 魚電共生',
+    name: 'Zone No.5',
     id: 113,
     stationType: {
       typeId: '2',
@@ -289,7 +289,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '貝爾威勒',
+    name: 'Zone No.6',
     id: 114,
     stationType: {
       typeId: '2',
@@ -311,7 +311,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '金元福冬山廠',
+    name: 'Zone No.7',
     id: 115,
     stationType: {
       typeId: '2',
@@ -333,7 +333,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '鍇鑫',
+    name: 'Zone No.8',
     id: 116,
     stationType: {
       typeId: '2',
@@ -355,7 +355,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '興仁國中',
+    name: 'Zone No.9',
     id: 117,
     stationType: {
       typeId: '2',
@@ -377,7 +377,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '僑德國小',
+    name: 'Zone No.10',
     id: 118,
     stationType: {
       typeId: '2',
@@ -399,7 +399,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '新埤國小',
+    name: 'Zone No.11',
     id: 119,
     stationType: {
       typeId: '2',
@@ -421,7 +421,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '中庄國小',
+    name: 'Zone No.12',
     id: 120,
     stationType: {
       typeId: '2',
@@ -443,7 +443,7 @@ export const allStationkWp = [
     ]
   },
   {
-    name: '麟洛國中',
+    name: 'Zone No.13',
     id: 121,
     stationType: {
       typeId: '2',

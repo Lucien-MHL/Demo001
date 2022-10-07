@@ -56,13 +56,13 @@ function CompareCards() {
 
         <div className={styles.cards_station}>
           <div className={styles.station_content}>
-            <div className={styles.station_name}>蘆竹益睿</div>
+            <div className={styles.station_name}>台南北門</div>
             <div className={styles.station_data}>2.74</div>
           </div>
 
           <div className={styles.station_content}>
-            <div className={styles.station_name}>京揚國際ABC棟 </div>
-            <div className={styles.station_data}>2.74</div>
+            <div className={styles.station_name}>台北中山 </div>
+            <div className={styles.station_data}>2.3</div>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ const fakeSingleStation = [
     id: 101,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220623T113258-2017001.jpg',
-    name: '立法院',
+    name: '台北中山',
     type: '屋頂型',
     PR: 80.2,
     dcc: 99,
@@ -11,35 +11,35 @@ const fakeSingleStation = [
       {
         name: '總發電量',
         unit: '度(kWh)',
-        dailyTotalNum: 141181,
+        dailyTotalNum: 12141,
         yearlyTotalNum: 52569134,
         id: 1
       },
       {
         name: '售電金額',
         unit: '元(NTD)',
-        dailyTotalNum: 282648,
+        dailyTotalNum: 60620.013,
         yearlyTotalNum: 95287271,
         id: 2
       },
       {
         name: '油當量',
         unit: '公斤(kg)',
-        dailyTotalNum: 12139,
+        dailyTotalNum: 14119.98,
         yearlyTotalNum: 4520132,
         id: 3
       },
       {
         name: '總減碳量',
         unit: '公斤(kg)',
-        dailyTotalNum: 70873,
+        dailyTotalNum: 6094.78,
         yearlyTotalNum: 26389705,
         id: 4
       },
       {
         name: '造林效益',
         unit: '公頃(ha)',
-        dailyTotalNum: 2586867,
+        dailyTotalNum: 0.61,
         yearlyTotalNum: 2671,
         id: 5
       }
@@ -49,7 +49,7 @@ const fakeSingleStation = [
     id: 102,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220804T183722-2022055.jpg',
-    name: '阿公店水庫',
+    name: '台南麻豆',
     type: '水面型',
     PR: 97.0,
     dcc: 9993.856,
@@ -95,7 +95,7 @@ const fakeSingleStation = [
     id: 103,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220331T164028-2020022.jpg',
-    name: '伸坪鋼鐵',
+    name: '台中梧棲 1',
     type: '屋頂型',
     PR: 75.77,
     dcc: 471.82,
@@ -141,7 +141,7 @@ const fakeSingleStation = [
     id: 104,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220331T164113-2020024.jpg',
-    name: '杰士電池',
+    name: '高雄鳳山',
     type: '屋頂型',
     PR: 34.36,
     dcc: 499.5,
@@ -187,7 +187,7 @@ const fakeSingleStation = [
     id: 105,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220331T170535-2021028.jpeg',
-    name: '禾亞-麥寮國小',
+    name: '桃園平鎮',
     type: '屋頂型',
     PR: 88.15,
     dcc: 179.8,
@@ -233,7 +233,7 @@ const fakeSingleStation = [
     id: 106,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220804T183548-2022058.jpg',
-    name: '光榮國小',
+    name: '宜蘭蘇澳',
     type: '屋頂型',
     PR: 40.95,
     dcc: 167.35,
@@ -279,7 +279,7 @@ const fakeSingleStation = [
     id: 107,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220804T182837-2022060.jpg',
-    name: '前進國小',
+    name: '台南北門',
     type: '屋頂型',
     PR: 29.7,
     dcc: 321.16,
@@ -325,7 +325,7 @@ const fakeSingleStation = [
     id: 108,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220331T163806-2020015.jpg',
-    name: '彰農 彰化農會',
+    name: '台中梧棲 2',
     type: '屋頂型',
     PR: 7.9,
     dcc: 284.58,
@@ -371,7 +371,7 @@ const fakeSingleStation = [
     id: 109,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220331T164215-2020027.jpeg',
-    name: '中櫃停車棚',
+    name: 'Zone No.1',
     type: '地面型',
     PR: 76.93,
     dcc: 123123.658,
@@ -417,7 +417,7 @@ const fakeSingleStation = [
     id: 110,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220331T164951-2021017.jpg',
-    name: '崙東九',
+    name: 'Zone No.2',
     type: '地面型',
     PR: 78.13,
     dcc: 231.16,
@@ -509,7 +509,7 @@ const fakeSingleStation = [
     id: 112,
     photo:
       'https://frontendstaticfile.blob.core.windows.net/station/20220804T183248-2022077.jpg',
-    name: '內埔國中_地面型',
+    name: 'Zone No.4',
     type: '地面型',
     PR: 66.12,
     dcc: 7657.16,

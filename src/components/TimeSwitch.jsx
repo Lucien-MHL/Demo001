@@ -42,10 +42,13 @@ function TimeSwitch({ result }) {
               <p>
                 <CountUp
                   className={styles.daily_value}
-                  end={time === 'daily' ? item.dailyTotalNum : item.yearlyTotalNum}
+                  end={
+                    time === 'daily' ? item.dailyTotalNum : item.yearlyTotalNum
+                  }
                   separator=','
                   duration={0.5}
                   useEasing
+                  decimals={2}
                 />
               </p>
               {time === 'daily' ? (

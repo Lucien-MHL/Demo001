@@ -39,52 +39,52 @@ function SlideMenu() {
             <div className={styles.content_group}>
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>立法院</span>
+                <span className={styles.item_text}>台北中山</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>伸評鋼鐵</span>
+                <span className={styles.item_text}>台南麻豆</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>前進國小</span>
+                <span className={styles.item_text}>台中梧棲 1</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>大肚國小</span>
+                <span className={styles.item_text}>高雄鳳山</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>前進國小</span>
+                <span className={styles.item_text}>桃園平鎮</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>立法院</span>
+                <span className={styles.item_text}>宜蘭蘇澳</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>伸評鋼鐵</span>
+                <span className={styles.item_text}>台南北門</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>蘆竹益睿</span>
+                <span className={styles.item_text}>台中梧棲 2</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>京揚國際ABC棟</span>
+                <span className={styles.item_text}>Zone No.1</span>
               </label>
 
               <label>
                 <input type='checkbox' className={styles.content_item} />
-                <span className={styles.item_text}>伸評鋼鐵</span>
+                <span className={styles.item_text}>Zone No.2</span>
               </label>
             </div>
           </div>

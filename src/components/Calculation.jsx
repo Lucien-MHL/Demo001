@@ -19,6 +19,7 @@ function Calculation({ props }) {
                 separator=','
                 duration={0.5}
                 useEasing
+                decimals={2}
               />
               <p className={styles.key}>
                 <span className={styles.category}>{item.name}</span>
