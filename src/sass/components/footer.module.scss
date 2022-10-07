@@ -1,0 +1,21 @@
+.footer {
+  width: 50%;
+  line-height: 2.5;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  padding-right: 44px;
+
+  .copyright {
+    width: max-content;
+    transform: translateX(-50%);
+  }
+
+  .weather {
+    .weather_icon {
+      vertical-align: middle;
+      margin-right: 0.875rem;
+    }
+  }
+}

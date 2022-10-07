@@ -1,0 +1,9 @@
+@use '../mainVariable';
+
+.genre {
+  @include mainVariable.btn_default;
+
+  .text {
+    @include mainVariable.btn_default_text;
+  }
+}

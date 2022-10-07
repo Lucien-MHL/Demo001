@@ -1,0 +1,768 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+.src-sass-components-search-module__search_component--Cq5Xc{width:190px;height:52px;display:flex;align-items:center;position:absolute;bottom:2px;left:196.5px;background:rgba(255,255,255,.55);border:1px solid #a0a0a0;border-radius:30px;padding:6px 8px}.src-sass-components-search-module__search_component--Cq5Xc .src-sass-components-search-module__magnifier--p1RYl{width:40px;height:40px;border-radius:50%;background-color:#000;cursor:pointer;padding:9.5px}.src-sass-components-search-module__search_component--Cq5Xc .src-sass-components-search-module__magnifier--p1RYl svg{display:block;fill:#fff}.src-sass-components-search-module__search_component--Cq5Xc .src-sass-components-search-module__searchBar--b4PLU{border:none;background-color:rgba(0,0,0,0);padding-left:13px;height:100%;width:calc(100% - 21px);font-size:20px;color:#515151}.src-sass-components-search-module__search_component--Cq5Xc .src-sass-components-search-module__searchBar--b4PLU::placeholder{font-size:20px}.src-sass-components-search-module__search_component--Cq5Xc .src-sass-components-search-module__searchBar--b4PLU:focus{outline:none}
+.src-sass-components-header-module__header--KrSAc{width:94.4444444444%;font-size:1.25rem;padding-top:1.25rem;margin:auto}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5{width:100%;height:3.375rem;display:flex;justify-content:space-between}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__lang--EFikR{cursor:pointer;width:190px;height:52px;background:rgba(255,255,255,.55);border:1px solid rgba(120,120,120,.9);border-radius:50px;padding:5.5px 8px;display:flex;align-items:center}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__lang--EFikR .src-sass-components-header-module__global--qB66a{background:#000;border-radius:20px;fill:#fff;width:41px;height:41px;padding:10px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__lang--EFikR .src-sass-components-header-module__text--Ddges{padding:0 12px 0 8px;font-size:20px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__lang--EFikR .src-sass-components-header-module__arrow--seFeB{width:17px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__account--Ns685{display:flex;align-items:center;cursor:pointer;background:rgba(255,255,255,.55);border:1px solid rgba(120,120,120,.9);border-radius:30px;height:56px;padding:8px 22px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__account--Ns685 .src-sass-components-header-module__profile--eDY8D{display:flex;align-items:center;margin-right:9px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__account--Ns685 .src-sass-components-header-module__profile--eDY8D .src-sass-components-header-module__logo--_YTN_{width:40px;height:40px;border-radius:50%;overflow:hidden}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__account--Ns685 .src-sass-components-header-module__profile--eDY8D .src-sass-components-header-module__logo--_YTN_ img{width:100%;height:100%}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__account--Ns685 .src-sass-components-header-module__profile--eDY8D .src-sass-components-header-module__text--Ddges{padding:0 14px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_top--J0oS5 .src-sass-components-header-module__account--Ns685 .src-sass-components-header-module__profile--eDY8D .src-sass-components-header-module__arrow--seFeB{width:17px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2{position:relative}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2 .src-sass-components-header-module__navbar--pLJMp{width:780px;margin:auto;background:rgba(255,255,255,.55);border:1px solid #a0a0a0;border-radius:38px;display:flex;justify-content:space-between;padding:6px 9px}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2 .src-sass-components-header-module__navbar--pLJMp a{display:block;padding:15px 20px;cursor:pointer;font-size:24px;position:relative}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2 .src-sass-components-header-module__navbar--pLJMp a:hover,.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2 .src-sass-components-header-module__navbar--pLJMp a.src-sass-components-header-module__active--cITdU{border-radius:35px;color:#fff}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2 .src-sass-components-header-module__navbar--pLJMp a:hover{background:rgba(0,0,0,.5)}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2 .src-sass-components-header-module__navbar--pLJMp a.src-sass-components-header-module__active--cITdU{animation:src-sass-components-header-module__activeEffect--ivhnd .3s forwards}.src-sass-components-header-module__header--KrSAc .src-sass-components-header-module__header_middle--T4Cp2 .src-sass-components-header-module__navbar--pLJMp a.src-sass-components-header-module__alarm--_BZkr::after{content:"";width:15px;height:15px;background-color:#ff4117;position:absolute;top:1;right:1;border-radius:7.5px}@keyframes src-sass-components-header-module__activeEffect--ivhnd{to{background:#000}}
+.src-sass-components-allCapacity-module__header_bottom--sUjLC{margin-top:38px;background:rgba(255,255,255,.55);border:1px solid #a0a0a0;border-radius:60px;padding:16px 64px;height:120px;width:fit-content;font-size:20px}.src-sass-components-allCapacity-module__header_bottom--sUjLC .src-sass-components-allCapacity-module__name--CI6ZW{font-weight:500}.src-sass-components-allCapacity-module__header_bottom--sUjLC .src-sass-components-allCapacity-module__capacity_value--CJFY_{font-size:3.125rem;font-weight:bold;padding-right:.5rem}
+.src-sass-components-timeSwitch-module__time_sorting--_FQRu{padding:0 66px;z-index:30}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__btn_group--Zpz8a{display:flex;justify-content:center}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__btn_group--Zpz8a .src-sass-components-timeSwitch-module__btn--GxbOc{border-bottom:1px solid #000}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__btn_group--Zpz8a .src-sass-components-timeSwitch-module__btn--GxbOc button{background-color:rgba(0,0,0,0);border:none;font-size:1.5rem;font-weight:600;padding:0 4.375rem;cursor:pointer}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__btn_group--Zpz8a .src-sass-components-timeSwitch-module__btn--GxbOc button.src-sass-components-timeSwitch-module__active--IQ3yY{border-bottom:5px solid #000}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo{padding:.95rem 0;padding-top:1.25rem;display:flex}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR{display:flex;justify-content:space-between;flex-grow:1}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q{display:flex;align-items:center}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__yearly_value--U29CE,.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__daily_value--kQUME{padding-right:.625rem}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__daily_value--kQUME{font-size:2.875rem}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__yearly_value--U29CE{font-size:2.5rem}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__key--YaplP{display:flex;flex-direction:column;align-items:flex-end}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__key--YaplP .src-sass-components-timeSwitch-module__yearly_category--WtxlO,.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__key--YaplP .src-sass-components-timeSwitch-module__daily_category--MSP0V{font-weight:bold}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__key--YaplP .src-sass-components-timeSwitch-module__yearly_unit--HhVpw,.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__key--YaplP .src-sass-components-timeSwitch-module__daily_unit--Gv7HD{color:#787878}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__key--YaplP .src-sass-components-timeSwitch-module__yearly_category--WtxlO{font-size:.75rem}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__card_group--kYqoR .src-sass-components-timeSwitch-module__card--UKg8q .src-sass-components-timeSwitch-module__key--YaplP .src-sass-components-timeSwitch-module__yearly_unit--HhVpw{font-size:.75rem}.src-sass-components-timeSwitch-module__time_sorting--_FQRu .src-sass-components-timeSwitch-module__contain--xtROo .src-sass-components-timeSwitch-module__sorting--xZzKR{display:flex;align-items:center;margin-left:2.0625rem}
+.src-sass-components-display-module__display--cmTSH{position:relative;width:max-content}.src-sass-components-display-module__display--cmTSH .src-sass-components-display-module__btn--RN5SX{cursor:pointer;background:rgba(0,0,0,0);border:none;padding:.625rem;margin:0 7px}.src-sass-components-display-module__display--cmTSH .src-sass-components-display-module__btn--RN5SX .src-sass-components-display-module__text--U44Rl{font-size:1.25rem;padding-right:14px}.src-sass-components-display-module__display--cmTSH .src-sass-components-display-module__menu--OfvkP{display:none}.src-sass-components-display-module__display--cmTSH .src-sass-components-display-module__appear--kqlp2{display:block;opacity:0;animation:src-sass-components-display-module__appear--kqlp2 .5s forwards;background-color:#fff;position:absolute;border:.75px solid #a3a3a3;box-shadow:-2px 2px 5px 1px rgba(0,0,0,.3);border-radius:3px;width:100%;z-index:30}.src-sass-components-display-module__display--cmTSH .src-sass-components-display-module__appear--kqlp2 .src-sass-components-display-module__item--pGO4n{width:100%;text-align:start}.src-sass-components-display-module__display--cmTSH .src-sass-components-display-module__appear--kqlp2 .src-sass-components-display-module__item--pGO4n button{cursor:pointer;background:rgba(0,0,0,0);border:none;padding:.625rem;width:100%;font-size:1.25rem}.src-sass-components-display-module__display--cmTSH .src-sass-components-display-module__appear--kqlp2 .src-sass-components-display-module__item--pGO4n button:hover{background-color:#c5c5c5}@keyframes src-sass-components-display-module__appear--kqlp2{to{opacity:1}}
+.src-sass-components-genre-module__genre--yZepI{cursor:pointer;background:rgba(0,0,0,0);border:none;padding:.625rem}.src-sass-components-genre-module__genre--yZepI .src-sass-components-genre-module__text--JT0S_{font-size:1.25rem;padding-right:14px}
+.src-sass-components-place-module__display_btn--wmgVr{margin:0 10px;cursor:pointer}
+.src-sass-components-exhibitStations-module__stations_group--JxsFV{display:flex;flex-wrap:wrap}.src-sass-components-exhibitStations-module__stations_group--JxsFV .src-sass-components-exhibitStations-module__station--Mevok{margin:0 .75% 1.5%;width:23.5%;height:282px;text-align:center;border-bottom:2px solid #000}.src-sass-components-exhibitStations-module__stations_group--JxsFV .src-sass-components-exhibitStations-module__station--Mevok .src-sass-components-exhibitStations-module__station_content--SO2rF{width:100%;height:100%;overflow:hidden;background-color:#fff}.src-sass-components-exhibitStations-module__stations_group--JxsFV .src-sass-components-exhibitStations-module__station--Mevok .src-sass-components-exhibitStations-module__station_content--SO2rF .src-sass-components-exhibitStations-module__station_pic--Ganns{width:100%;height:80%;object-fit:cover;vertical-align:bottom}.src-sass-components-exhibitStations-module__stations_group--JxsFV .src-sass-components-exhibitStations-module__station--Mevok .src-sass-components-exhibitStations-module__station_content--SO2rF .src-sass-components-exhibitStations-module__station_title--jCu4S{display:flex;justify-content:space-between;align-items:center;width:80%;height:20%;margin:auto}.src-sass-components-exhibitStations-module__stations_group--JxsFV .src-sass-components-exhibitStations-module__station--Mevok .src-sass-components-exhibitStations-module__station_content--SO2rF .src-sass-components-exhibitStations-module__station_title--jCu4S .src-sass-components-exhibitStations-module__title_name--SEOIK{font-size:1.5rem}.src-sass-components-exhibitStations-module__stations_group--JxsFV .src-sass-components-exhibitStations-module__station--Mevok .src-sass-components-exhibitStations-module__station_content--SO2rF .src-sass-components-exhibitStations-module__station_title--jCu4S .src-sass-components-exhibitStations-module__title_type--tL3rm{font-size:.875rem}
+.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_energy--FPNC_,.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_dcc--khum8,.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_type--yqXB_,.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_name--lzbNZ{padding-top:1.5rem;padding-bottom:1.5rem}.src-sass-components-genreStations-module__genre_stations--ivmNz{width:100%;height:100%;display:flex;padding-bottom:5rem;padding-top:3.5rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__chart--eoZ60{width:50%;position:relative}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__chart--eoZ60 .src-sass-components-genreStations-module__info--oTb5s{height:100%;position:absolute;top:0;right:0;bottom:0;padding:.75rem 6.125rem .7rem;display:flex;flex-direction:column;justify-content:space-between}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__chart--eoZ60 .src-sass-components-genreStations-module__info--oTb5s .src-sass-components-genreStations-module__header--wc3cx .src-sass-components-genreStations-module__title--slYpN{font-size:1.5rem;font-weight:bold;margin-bottom:3.125rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__chart--eoZ60 .src-sass-components-genreStations-module__info--oTb5s .src-sass-components-genreStations-module__header--wc3cx .src-sass-components-genreStations-module__source--LWJk_{font-size:1.25rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__chart--eoZ60 .src-sass-components-genreStations-module__info--oTb5s .src-sass-components-genreStations-module__header--wc3cx .src-sass-components-genreStations-module__source--LWJk_ li .src-sass-components-genreStations-module__small--VBWQ3{font-size:.875rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__chart--eoZ60 .src-sass-components-genreStations-module__info--oTb5s .src-sass-components-genreStations-module__legend--nbWjZ .src-sass-components-genreStations-module__item--JfF1a{padding-bottom:.5rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__chart--eoZ60 .src-sass-components-genreStations-module__info--oTb5s .src-sass-components-genreStations-module__legend--nbWjZ .src-sass-components-genreStations-module__item--JfF1a .src-sass-components-genreStations-module__symbol--Xsow8{display:inline-block;vertical-align:text-top;width:93px;height:18px;margin-right:.75rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv{width:50%;height:100%;font-size:1.25rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_header--HNA72{width:100%;height:11.9478667995%;display:flex;padding:1rem 1.5rem;border-bottom:2px solid #676767;top:0}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_header--HNA72 .src-sass-components-genreStations-module__name--SKedp{width:40%}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_header--HNA72 .src-sass-components-genreStations-module__type--qkykt{width:10%}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_header--HNA72 .src-sass-components-genreStations-module__dcc--Xbe2U{width:20%;text-align:end}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_header--HNA72 .src-sass-components-genreStations-module__energy--iCkxY{text-align:right;width:30%}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE{height:88.0521332005%;overflow-y:overlay}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE::-webkit-scrollbar-thumb{background:rgba(91,91,91,.9);border-radius:3px}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE::-webkit-scrollbar{width:6px}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE::-webkit-scrollbar-track{background:rgba(255,255,255,.3);border-radius:3px}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2{width:100%;display:flex;padding:0 1.5rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2+.src-sass-components-genreStations-module__row--dFMi2{border-top:1px solid #c2c2c2}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_name--lzbNZ{width:40%;padding-right:3rem}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_type--yqXB_,.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_dcc--khum8,.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_energy--FPNC_{width:10%;display:flex;align-items:center}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_dcc--khum8,.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_energy--FPNC_{width:20%;justify-content:end}.src-sass-components-genreStations-module__genre_stations--ivmNz .src-sass-components-genreStations-module__table--fLcQv .src-sass-components-genreStations-module__table_body--KZ0zE .src-sass-components-genreStations-module__row--dFMi2 .src-sass-components-genreStations-module__row_energy--FPNC_{width:30%}
+.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__second_line--mowcs,.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__first_line--LPppC{display:flex;justify-content:space-between}.src-sass-components-dataStations-module__card_group--RoFw3{display:flex;flex-wrap:wrap}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH{border:1px solid #3c3c3c;margin:0 .75% 1.5%;width:23.5%;height:282px;padding:1.25rem}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq{padding:1.5rem .5rem .75rem}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__first_line--LPppC{margin-bottom:.5rem}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__first_line--LPppC .src-sass-components-dataStations-module__value_name--zj4Lt{font-size:1.25rem;font-weight:600}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__first_line--LPppC .src-sass-components-dataStations-module__name--Hq8ve{font-size:1.125rem}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__second_line--mowcs .src-sass-components-dataStations-module__value--PflMv{font-size:1.5rem;font-weight:600}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__second_line--mowcs .src-sass-components-dataStations-module__value--PflMv .src-sass-components-dataStations-module__unit--m20J0{font-size:1.25rem;font-weight:400;padding-left:.5rem}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_header--vGnVq .src-sass-components-dataStations-module__second_line--mowcs .src-sass-components-dataStations-module__type--jq7we{font-size:.875rem;color:#3c3c3c;line-height:1.8125rem}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_body--HjcVu .src-sass-components-dataStations-module__content--kBQSG{width:80%;margin:1.875rem auto 0;display:flex;justify-content:space-between}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_body--HjcVu .src-sass-components-dataStations-module__content--kBQSG .src-sass-components-dataStations-module__list--BK18i .src-sass-components-dataStations-module__list_value--gS1Av{font-size:1.5rem;text-align:center}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_body--HjcVu .src-sass-components-dataStations-module__content--kBQSG .src-sass-components-dataStations-module__list--BK18i .src-sass-components-dataStations-module__list_name--BaD1J{font-size:.875rem;text-align:center}.src-sass-components-dataStations-module__card_group--RoFw3 .src-sass-components-dataStations-module__card--xLtQH .src-sass-components-dataStations-module__card_body--HjcVu .src-sass-components-dataStations-module__content--kBQSG .src-sass-components-dataStations-module__list--BK18i .src-sass-components-dataStations-module__list_unit--x93vY{padding-left:.5rem;font-size:.625rem;color:#3c3c3c}
+.src-sass-components-footer-module__footer--d8BHz{width:50%;line-height:2.5;margin-left:auto;display:flex;justify-content:space-between;z-index:10;padding-right:44px}.src-sass-components-footer-module__footer--d8BHz .src-sass-components-footer-module__copyright--RXKpL{width:max-content;transform:translateX(-50%)}.src-sass-components-footer-module__footer--d8BHz .src-sass-components-footer-module__weather--XANQm .src-sass-components-footer-module__weather_icon--GCmLw{vertical-align:middle;margin-right:.875rem}
+*{padding:0;margin:0;box-sizing:border-box;list-style:none;text-decoration:none;color:#000;font-family:"Roboto",sans-serif}.src-sass-main-module__container--hFadW{width:100%;padding:0 3.125%;height:100vh;display:flex;flex-direction:column;position:relative;background:url("https://frontendstaticfile.blob.core.windows.net/station/20220331T164422-2020034.jpeg") center/cover;background:url("https://media.discordapp.net/attachments/993322705799630859/1017276872201093120/unknown.png") center/cover}.src-sass-main-module__container--hFadW .src-sass-main-module__current_container--NjG_O,.src-sass-main-module__container--hFadW .src-sass-main-module__component_container--PpsL4{width:93.75%;margin:auto;position:absolute;left:0;right:0;bottom:0;z-index:3;border-radius:60px 60px 0px 0px}.src-sass-main-module__container--hFadW .src-sass-main-module__component_container--PpsL4{background:rgba(255,255,255,.55);height:calc(100vh - 345px);border-width:1px 1px 0px 1px}.src-sass-main-module__container--hFadW .src-sass-main-module__current_container--NjG_O{background:rgba(255,255,255,.7);height:calc(100% - 363px)}.src-sass-main-module__container--hFadW .src-sass-main-module__shrink_hidden--ACfWr{flex-grow:1;overflow-y:hidden;margin:0 66px;z-index:20}.src-sass-main-module__container--hFadW .src-sass-main-module__shrink_scroll--Q0jbR{flex-grow:1;overflow-y:scroll;overflow-y:overlay;margin:0 66px;z-index:20}.src-sass-main-module__container--hFadW .src-sass-main-module__shrink_scroll--Q0jbR::-webkit-scrollbar-thumb{background:rgba(91,91,91,.9);border-radius:3px}.src-sass-main-module__container--hFadW .src-sass-main-module__shrink_scroll--Q0jbR::-webkit-scrollbar{width:6px}.src-sass-main-module__container--hFadW .src-sass-main-module__shrink_scroll--Q0jbR::-webkit-scrollbar-track{background:rgba(255,255,255,.3);border-radius:3px}.src-sass-main-module__container--hFadW .src-sass-main-module__sorting--Roeir{display:flex;justify-content:flex-end}
+ul{margin:0;padding:0}.src-sass-components-monitoringCard-module__stations_group--Il1mv{display:flex;flex-wrap:wrap;flex-direction:row}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3{margin:0 .5rem 1rem;width:25rem;height:20.75rem;border-radius:1.25rem;border:1px solid rgba(120,120,120,.8);z-index:2}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T{display:flex;flex-wrap:nowrap;flex-direction:row;display:flex;align-items:center;justify-content:space-between;border-top-left-radius:1.25rem;border-top-right-radius:1.25rem;border-bottom-right-radius:0;border-bottom-left-radius:0;background-color:rgba(255,255,255,.55);padding:0rem 2rem 0rem 2rem}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_content--X42X0{width:8.125rem;height:7.1875rem}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_content--X42X0 .src-sass-components-monitoringCard-module__card_list__small--hTpod{display:flex;flex-wrap:nowrap;flex-direction:row;display:flex;align-items:flex-start;justify-content:space-between;padding:.525rem .75rem}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_content--X42X0 li:first-child{margin-top:.125rem}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_content--X42X0 li:nth-child(2){border-bottom:.0625rem solid rgba(120,120,120,.8);border-top:.0625rem solid rgba(120,120,120,.8)}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_name--mUFiZ{position:relative}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_name--mUFiZ .src-sass-components-monitoringCard-module__warningSign--gHwsb{display:block;width:32px;height:32px;position:absolute;top:-25px;right:-27px}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_name--mUFiZ .src-sass-components-monitoringCard-module__card_title--iAcGB{font-size:1.5rem;font-weight:900;display:flex;align-items:center;justify-content:flex-end}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_name--mUFiZ .src-sass-components-monitoringCard-module__card_subT--x1aIF{display:flex;align-items:center;justify-content:flex-end;font-size:1.25rem}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_wrap--QHC2T .src-sass-components-monitoringCard-module__card_name--mUFiZ .src-sass-components-monitoringCard-module__card_subT--x1aIF small{margin-top:.2rem;padding-left:.325rem}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_btm--Ckfnb{position:relative;background-color:rgba(244,244,244,.5);padding:12px 10px;border-top-left-radius:0rem;border-top-right-radius:0rem;border-bottom-right-radius:1.25rem;border-bottom-left-radius:1.25rem;border:0 1px 1px 1px solid rgba(120,120,120,.8);display:flex;align-items:center;justify-content:center}.src-sass-components-monitoringCard-module__stations_group--Il1mv .src-sass-components-monitoringCard-module__card_container--y6YO3 .src-sass-components-monitoringCard-module__card_btm--Ckfnb:before{width:19rem;height:10.125rem;content:"";display:block;clear:both;position:absolute;top:12px;right:32px;width:309px;height:177px;background-color:rgba(255,255,255,.8)}
+ul{margin:0;padding:0}body{background-color:#cef6f4}.src-sass-components-exceptions-module__stations_group--n6AYl{display:flex;flex-wrap:nowrap;flex-direction:row;display:flex;align-items:center;justify-content:center}.src-sass-components-exceptions-module__stations_group--n6AYl .src-sass-components-exceptions-module__container_wrap--Y_O1k{display:flex;flex-wrap:nowrap;flex-direction:column;display:flex;align-items:center;justify-content:space-between;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}.src-sass-components-exceptions-module__stations_group--n6AYl .src-sass-components-exceptions-module__container_wrap--Y_O1k .src-sass-components-exceptions-module__exception_fontz--h33ge{font-size:2.5rem;padding-top:3rem}.src-sass-components-exceptions-module__stations_group--n6AYl .src-sass-components-exceptions-module__color_block--bqbKw .src-sass-components-exceptions-module__svg_smileFace--hubpm{position:relative;z-index:3}.src-sass-components-exceptions-module__stations_group--n6AYl .src-sass-components-exceptions-module__color_block--bqbKw .src-sass-components-exceptions-module__color_block_yellow--znZaL{width:6.25rem;height:6.25rem;border-radius:3.125rem;background-color:#ffa600;position:absolute;top:38%;left:48.7%;z-index:-1}.src-sass-components-exceptions-module__stations_group--n6AYl .src-sass-components-exceptions-module__color_block--bqbKw .src-sass-components-exceptions-module__color_block_red--SmNkk{width:3.25rem;height:3.25rem;border-radius:1.625rem;background-color:#ff4117;position:absolute;top:42%;left:46%;z-index:-1}
+body{background-color:#f5f5f5}.src-sass-components-stationComparison-module__whole_sec--SWKvl{padding-top:3.125rem;justify-content:space-between;display:flex;flex-wrap:nowrap;flex-direction:row;height:100%}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__barchart_container--rEB8g{margin-right:.75rem;width:31%;flex-grow:1;background-color:rgba(255,255,255,.55);display:flex;flex-wrap:nowrap;flex-direction:column;border:1px solid rgba(120,120,120,.8);border-top-left-radius:2rem;border-top-right-radius:2rem;border-bottom-right-radius:0rem;border-bottom-left-radius:0rem;border-bottom:none}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__barchart_container--rEB8g .src-sass-components-stationComparison-module__chart_title--lG79h{padding:1.5rem 2rem .75rem;font-size:1.25rem;text-align:end}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__barchart_container--rEB8g .src-sass-components-stationComparison-module__chart_wrap--uvZM3{height:88%;padding:0rem 1.5rem 0rem;overflow-y:overlay}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__barchart_container--rEB8g .src-sass-components-stationComparison-module__chart_wrap--uvZM3::-webkit-scrollbar{width:3px}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__barchart_container--rEB8g .src-sass-components-stationComparison-module__chart_wrap--uvZM3::-webkit-scrollbar-track{background-color:rgba(240,240,240,.2431372549);border-radius:1.5px}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__barchart_container--rEB8g .src-sass-components-stationComparison-module__chart_wrap--uvZM3::-webkit-scrollbar-thumb{background-color:#9d9d9d;border-radius:1.5px}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__barchart_container--rEB8g .src-sass-components-stationComparison-module__chart_wrap--uvZM3::-webkit-scrollbar-thumb:hover{background:#565656}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__right_container--cuWVd{width:68.5%;padding:0 .75rem;height:100%}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__right_container--cuWVd .src-sass-components-stationComparison-module__cards_wrap--ASS06{height:364px;display:flex;padding-bottom:1.5rem}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__right_container--cuWVd .src-sass-components-stationComparison-module__cards_wrap--ASS06 .src-sass-components-stationComparison-module__calendar--ehV6i{width:16.875rem;height:6.875rem}.src-sass-components-stationComparison-module__whole_sec--SWKvl .src-sass-components-stationComparison-module__right_container--cuWVd .src-sass-components-stationComparison-module__linechart_container--mSFbD{background-color:rgba(255,255,255,.55);border-top-left-radius:2rem;border-top-right-radius:2rem;border-bottom-right-radius:0rem;border-bottom-left-radius:0rem;border:1px solid rgba(120,120,120,.8);width:100%;height:calc(100% - 364px);padding:1.5rem;padding-top:2rem;border-bottom:none}
+.src-sass-components-compareCards__cards_compare--zayog{cursor:pointer;padding:32px;border:1px solid rgba(120,120,120,.8);border-top-left-radius:2rem;border-top-right-radius:2rem;border-bottom-right-radius:2rem;border-bottom-left-radius:2rem;min-width:375px;height:auto;margin-right:1.5rem;display:flex;flex-wrap:nowrap;flex-direction:column}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__content_wrap--yJ09I{display:flex;align-items:flex-end;justify-content:space-between}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__content_wrap--yJ09I .src-sass-components-compareCards__cards_content--FVmac{display:flex;align-items:flex-start;justify-content:space-between;display:flex;flex-wrap:nowrap;flex-direction:column}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__content_wrap--yJ09I .src-sass-components-compareCards__cards_content--FVmac .src-sass-components-compareCards__content_subtitle--X2WpP{font-size:.875rem;color:rgba(120,120,120,.8)}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__content_wrap--yJ09I .src-sass-components-compareCards__cards_content--FVmac .src-sass-components-compareCards__content_summary--VZzQa{font-size:3.125rem;font-weight:bolder;letter-spacing:5px;font-size:50px}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__content_wrap--yJ09I .src-sass-components-compareCards__cards_right--ZHhyx{display:flex;flex-wrap:nowrap;flex-direction:column;display:flex;align-items:flex-end;justify-content:space-between;height:100%}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__content_wrap--yJ09I .src-sass-components-compareCards__cards_right--ZHhyx .src-sass-components-compareCards__summary_unit--uUxIx{line-height:2;color:rgba(120,120,120,.8)}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__cards_average--qOkGL{display:flex;align-items:flex-start;justify-content:space-between}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__content_level--pN_yL{font-size:2.5rem;font-weight:bold;letter-spacing:3px;color:rgba(120,120,120,.8);line-height:1.65;margin-top:1rem}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__cards_station--FrIDl{display:flex;align-items:flex-end;justify-content:space-between;display:flex;flex-wrap:nowrap;flex-direction:column}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__cards_station--FrIDl .src-sass-components-compareCards__station_content--sRSK4{line-height:1.5;display:flex;align-items:flex-end;justify-content:space-between;display:flex;flex-wrap:nowrap;flex-direction:column;margin-top:1rem}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__cards_station--FrIDl .src-sass-components-compareCards__station_content--sRSK4 .src-sass-components-compareCards__station_name--Owlsj{font-size:1.25rem}.src-sass-components-compareCards__cards_compare--zayog .src-sass-components-compareCards__cards_station--FrIDl .src-sass-components-compareCards__station_content--sRSK4 .src-sass-components-compareCards__station_data--OZLfK{font-size:1.5rem}
+.src-sass-components-slideMenu-module__slideMenu--_TNbv{width:317px;height:600px;background-color:rgba(251,251,251,.95);border-radius:5px 0 5px 5px;position:absolute;box-shadow:7px 7px 10px 0px rgba(0,0,0,.15);z-index:99}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__edge_left--an2pS{display:flex;flex-direction:column;align-items:center;justify-content:space-between}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__edge_left--an2pS .src-sass-components-slideMenu-module__title_wrap--C_GOT{width:80%;padding-top:1rem;padding-bottom:1rem;display:flex;align-items:center;justify-content:space-between}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__edge_left--an2pS .src-sass-components-slideMenu-module__title_wrap--C_GOT .src-sass-components-slideMenu-module__title_choice--NgVE2{font-size:1.25rem}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__mid_wrap--rkVF4{width:80%;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;background-color:#f5f5f5;border-radius:5px}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__mid_content--C2nR_{width:95%;height:85%;padding:1rem;padding-top:.75rem;display:flex;flex-direction:column;align-items:center;justify-content:center}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__mid_content--C2nR_ .src-sass-components-slideMenu-module__type_title--urxCQ{width:100%;display:flex;align-items:center;justify-content:space-between;padding-bottom:.5rem;padding-left:.25rem;border-bottom:1px solid #707070}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__mid_content--C2nR_ .src-sass-components-slideMenu-module__content_group--IdwM1{width:100%;height:100%;padding:10px;padding-left:1rem;display:flex;flex-direction:column;justify-content:space-evenly;gap:.5rem}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__item_text--UMEyT{padding-left:.25rem}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__btm_zone--Sfo71{width:80%;padding-top:2rem;display:flex;justify-content:end;gap:10px}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__btm_zone--Sfo71 .src-sass-components-slideMenu-module__zone_select--WXHRz{line-height:1.5;padding:.15rem .45rem;border-radius:5px;border:1px solid #221d1d;background-color:#221d1d;color:#fff;font-size:1rem}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__btm_zone--Sfo71 .src-sass-components-slideMenu-module__zone_select--WXHRz:hover{border:1px solid #221d1d;background-color:#f0f0f0;color:#221d1d}.src-sass-components-slideMenu-module__slideMenu--_TNbv label{padding:0;cursor:pointer}.src-sass-components-slideMenu-module__slideMenu--_TNbv input[type=checkbox]{display:none}.src-sass-components-slideMenu-module__slideMenu--_TNbv input[type=checkbox]+span{display:inline-block;padding-left:25px;line-height:20px;background:url(https://i.imgur.com/bZM5Itd.png) no-repeat left top;user-select:none}.src-sass-components-slideMenu-module__slideMenu--_TNbv input[type=checkbox]:checked+span{background:url(https://i.imgur.com/JWm4WKA.png) no-repeat left top}.src-sass-components-slideMenu-module__slideMenu--_TNbv .src-sass-components-slideMenu-module__edge_btn--fhDsJ{border:none;position:absolute;background-color:rgba(251,251,251,.95);border-radius:0 5px 5px 0;border-left:none;top:0;right:-25px;width:25px;height:50px;box-shadow:7px 7px 10px 0px rgba(0,0,0,.15)}
+.src-sass-general-module__filter_btn--mZrni{cursor:pointer;background:rgba(0,0,0,0);border:none;padding:.625rem}.src-sass-general-module__filter_fontz--fEYH6{font-size:1rem;line-height:1.5;padding-right:.875rem}
+.src-sass-components-singleCapacity-module__header_bottom--uNQT8{margin-top:21px;background:rgba(255,255,255,.55);border:1px solid #a0a0a0;border-radius:70px;padding:16px 64px;width:fit-content;font-size:20px}.src-sass-components-singleCapacity-module__header_bottom--uNQT8 .src-sass-components-singleCapacity-module__capacity_name--qwf4M{font-size:38px;padding-right:24px}.src-sass-components-singleCapacity-module__header_bottom--uNQT8 .src-sass-components-singleCapacity-module__capacity_value--iSq1g{font-weight:700;font-size:50px;line-height:59px;letter-spacing:.05em}
+.src-sass-components-currentStationNav-module__single_navbar--N92gP{width:100%}.src-sass-components-currentStationNav-module__single_navbar--N92gP .src-sass-components-currentStationNav-module__group--oPh1Y{display:flex;width:699px;margin:0 auto}.src-sass-components-currentStationNav-module__single_navbar--N92gP .src-sass-components-currentStationNav-module__group--oPh1Y .src-sass-components-currentStationNav-module__item--nCRB6{cursor:pointer;background-color:rgba(255,255,255,.3);border:1px solid rgba(120,120,120,.9);color:#a0a0a0;border-bottom:none;font-size:1.25rem;font-weight:700;padding:.625rem;border-radius:10px 10px 0px 0px;margin-right:.25rem;position:relative;top:.25rem;position:relative}.src-sass-components-currentStationNav-module__single_navbar--N92gP .src-sass-components-currentStationNav-module__group--oPh1Y .src-sass-components-currentStationNav-module__item--nCRB6:hover{top:0}.src-sass-components-currentStationNav-module__single_navbar--N92gP .src-sass-components-currentStationNav-module__group--oPh1Y .src-sass-components-currentStationNav-module__item_active--j0X4Q{cursor:pointer;background-color:rgba(255,255,255,.55);border:1px solid #a0a0a0;color:#a0a0a0;border-bottom:none;font-size:1.25rem;font-weight:700;padding:.625rem;border-radius:10px 10px 0px 0px;margin-right:.25rem;position:relative;top:.25rem;top:0;color:#3c3c3c}.src-sass-components-currentStationNav-module__single_navbar--N92gP section{width:100%;height:.25rem;border-top:2px solid #000;background-color:#fff;position:relative}
+.src-sass-components-calculation-module__contain--zFtxA{height:91%;display:flex}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y{width:23%;height:100%;padding-top:5.559%;display:flex;flex-direction:column;justify-content:space-between;padding-right:1.75rem}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y .src-sass-components-calculation-module__title--Jml44{font-size:1.5rem;font-weight:500;text-align:end}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y .src-sass-components-calculation-module__group--u1flE .src-sass-components-calculation-module__card--dNFrP{display:flex;justify-content:flex-end;align-items:center;margin-bottom:2.75rem}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y .src-sass-components-calculation-module__group--u1flE .src-sass-components-calculation-module__card--dNFrP:last-child{margin-bottom:0}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y .src-sass-components-calculation-module__group--u1flE .src-sass-components-calculation-module__card--dNFrP .src-sass-components-calculation-module__value--bn2tl{font-size:2.5rem;padding-right:.625rem}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y .src-sass-components-calculation-module__group--u1flE .src-sass-components-calculation-module__card--dNFrP .src-sass-components-calculation-module__key--c7jHB{display:flex;flex-direction:column;font-size:.75rem;align-items:flex-end}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y .src-sass-components-calculation-module__group--u1flE .src-sass-components-calculation-module__card--dNFrP .src-sass-components-calculation-module__key--c7jHB .src-sass-components-calculation-module__category--VAcE1{font-weight:600}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__station_data--KUn_y .src-sass-components-calculation-module__group--u1flE .src-sass-components-calculation-module__card--dNFrP .src-sass-components-calculation-module__key--c7jHB .src-sass-components-calculation-module__unit--dZaQt{color:#787878}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__dateAndRate--iWURl{width:11%;height:100%;padding-top:12.375rem;display:flex;flex-direction:column;justify-content:space-between}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__dateAndRate--iWURl .src-sass-components-calculation-module__table--reG_e{width:70%;margin:0 auto}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__dateAndRate--iWURl .src-sass-components-calculation-module__table--reG_e .src-sass-components-calculation-module__row--w6QuO .src-sass-components-calculation-module__value--bn2tl{font-size:1rem;border-bottom:.75px solid #000;padding:.5rem .125rem}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__dateAndRate--iWURl .src-sass-components-calculation-module__table--reG_e .src-sass-components-calculation-module__row--w6QuO .src-sass-components-calculation-module__key--c7jHB{font-size:.75em;padding:.5rem .125rem}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD{width:66%;position:relative;display:flex}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__chart--CuamL{height:100%;width:60%;z-index:3;padding-top:19.47%}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__chart--CuamL .src-sass-components-calculation-module__legend--IgPbY{width:60%;height:46.719px;margin:auto}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__chart--CuamL .src-sass-components-calculation-module__legend--IgPbY .src-sass-components-calculation-module__legend_title--laSKk{font-size:.75rem;display:inline-block;line-height:46.719px;margin-right:1.5rem}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__chart--CuamL .src-sass-components-calculation-module__legend--IgPbY .src-sass-components-calculation-module__legend_title--laSKk .src-sass-components-calculation-module__bgc--cUuBu{display:inline-block;width:40px;height:8px;background-color:#34237f;margin-right:.5rem}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__chart--CuamL .src-sass-components-calculation-module__legend--IgPbY .src-sass-components-calculation-module__legend_title--laSKk:last-child .src-sass-components-calculation-module__bgc--cUuBu{background-color:#cedf83}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__chart--CuamL .src-sass-components-calculation-module__legend--IgPbY .src-sass-components-calculation-module__legend_title--laSKk .src-sass-components-calculation-module__unit--dZaQt{font-size:.625rem;color:gray}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__pic--YL9nT{position:absolute;top:48px;right:0;bottom:0;width:60%;display:flex;flex-direction:column;justify-content:space-between}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__pic--YL9nT .src-sass-components-calculation-module__dateSwitch--x8QdS{width:max-content;height:90px;margin-left:327px}.src-sass-components-calculation-module__contain--zFtxA .src-sass-components-calculation-module__chartAndPhoto--y6PzD .src-sass-components-calculation-module__pic--YL9nT img{width:100%;height:450px;object-fit:cover;object-position:center}
+@charset "UTF-8";
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow, .react-datepicker__navigation-icon::before {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 3px 3px 0 0;
+  content: "";
+  display: block;
+  height: 9px;
+  position: absolute;
+  top: 6px;
+  width: 9px;
+}
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+  margin-left: -4px;
+  position: absolute;
+  width: 0;
+}
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::after, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+  box-sizing: content-box;
+  position: absolute;
+  border: 8px solid transparent;
+  height: 0;
+  width: 1px;
+  content: "";
+  z-index: -1;
+  border-width: 8px;
+  left: -8px;
+}
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before {
+  border-bottom-color: #aeaeae;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+  top: 0;
+  margin-top: -8px;
+}
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+  border-top: none;
+  border-bottom-color: #f0f0f0;
+}
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+  top: 0;
+}
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before {
+  top: -1px;
+  border-bottom-color: #aeaeae;
+}
+
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle {
+  bottom: 0;
+  margin-bottom: -8px;
+}
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::after {
+  border-bottom: none;
+  border-top-color: #fff;
+}
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::after {
+  bottom: 0;
+}
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before {
+  bottom: -1px;
+  border-top-color: #aeaeae;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
+.react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-block;
+  position: relative;
+}
+
+.react-datepicker--time-only .react-datepicker__triangle {
+  left: 35px;
+}
+.react-datepicker--time-only .react-datepicker__time-container {
+  border-left: 0;
+}
+.react-datepicker--time-only .react-datepicker__time,
+.react-datepicker--time-only .react-datepicker__time-box {
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.react-datepicker__triangle {
+  position: absolute;
+  left: 50px;
+}
+
+.react-datepicker-popper {
+  z-index: 1;
+}
+.react-datepicker-popper[data-placement^=bottom] {
+  padding-top: 10px;
+}
+.react-datepicker-popper[data-placement=bottom-end] .react-datepicker__triangle, .react-datepicker-popper[data-placement=top-end] .react-datepicker__triangle {
+  left: auto;
+  right: 50px;
+}
+.react-datepicker-popper[data-placement^=top] {
+  padding-bottom: 10px;
+}
+.react-datepicker-popper[data-placement^=right] {
+  padding-left: 8px;
+}
+.react-datepicker-popper[data-placement^=right] .react-datepicker__triangle {
+  left: auto;
+  right: 42px;
+}
+.react-datepicker-popper[data-placement^=left] {
+  padding-right: 8px;
+}
+.react-datepicker-popper[data-placement^=left] .react-datepicker__triangle {
+  left: 42px;
+  right: auto;
+}
+
+.react-datepicker__header {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+  border-top-left-radius: 0.3rem;
+  padding: 8px 0;
+  position: relative;
+}
+.react-datepicker__header--time {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.react-datepicker__header--time:not(.react-datepicker__header--time--only) {
+  border-top-left-radius: 0;
+}
+.react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  border-top-right-radius: 0.3rem;
+}
+
+.react-datepicker__year-dropdown-container--select,
+.react-datepicker__month-dropdown-container--select,
+.react-datepicker__month-year-dropdown-container--select,
+.react-datepicker__year-dropdown-container--scroll,
+.react-datepicker__month-dropdown-container--scroll,
+.react-datepicker__month-year-dropdown-container--scroll {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  margin-top: 0;
+  color: #000;
+  font-weight: bold;
+  font-size: 0.944rem;
+}
+
+.react-datepicker-time__header {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.react-datepicker__navigation {
+  align-items: center;
+  background: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  padding: 0;
+  border: none;
+  z-index: 1;
+  height: 32px;
+  width: 32px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+.react-datepicker__navigation--previous {
+  left: 2px;
+}
+.react-datepicker__navigation--next {
+  right: 2px;
+}
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 85px;
+}
+.react-datepicker__navigation--years {
+  position: relative;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.react-datepicker__navigation--years-previous {
+  top: 4px;
+}
+.react-datepicker__navigation--years-upcoming {
+  top: -4px;
+}
+.react-datepicker__navigation:hover *::before {
+  border-color: #a6a6a6;
+}
+
+.react-datepicker__navigation-icon {
+  position: relative;
+  top: -1px;
+  font-size: 20px;
+  width: 0;
+}
+.react-datepicker__navigation-icon--next {
+  left: -2px;
+}
+.react-datepicker__navigation-icon--next::before {
+  transform: rotate(45deg);
+  left: -7px;
+}
+.react-datepicker__navigation-icon--previous {
+  right: -2px;
+}
+.react-datepicker__navigation-icon--previous::before {
+  transform: rotate(225deg);
+  right: -7px;
+}
+
+.react-datepicker__month-container {
+  float: left;
+}
+
+.react-datepicker__year {
+  margin: 0.4rem;
+  text-align: center;
+}
+.react-datepicker__year-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
+}
+.react-datepicker__year .react-datepicker__year-text {
+  display: inline-block;
+  width: 4rem;
+  margin: 2px;
+}
+
+.react-datepicker__month {
+  margin: 0.4rem;
+  text-align: center;
+}
+.react-datepicker__month .react-datepicker__month-text,
+.react-datepicker__month .react-datepicker__quarter-text {
+  display: inline-block;
+  width: 4rem;
+  margin: 2px;
+}
+
+.react-datepicker__input-time-container {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin: 5px 0 10px 15px;
+  text-align: left;
+}
+.react-datepicker__input-time-container .react-datepicker-time__caption {
+  display: inline-block;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container {
+  display: inline-block;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input {
+  display: inline-block;
+  margin-left: 10px;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input {
+  width: auto;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type=time]::-webkit-inner-spin-button,
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type=time]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type=time] {
+  -moz-appearance: textfield;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__delimiter {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.react-datepicker__time-container {
+  float: right;
+  border-left: 1px solid #aeaeae;
+  width: 85px;
+}
+.react-datepicker__time-container--with-today-button {
+  display: inline;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  position: absolute;
+  right: -72px;
+  top: 0;
+}
+.react-datepicker__time-container .react-datepicker__time {
+  position: relative;
+  background: white;
+  border-bottom-right-radius: 0.3rem;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  width: 85px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom-right-radius: 0.3rem;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+  list-style: none;
+  margin: 0;
+  height: calc(195px + (1.7rem / 2));
+  overflow-y: scroll;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  box-sizing: content-box;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+  height: 30px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+  background-color: #216ba5;
+  color: white;
+  font-weight: bold;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+  background-color: #216ba5;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled {
+  color: #ccc;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled:hover {
+  cursor: default;
+  background-color: transparent;
+}
+
+.react-datepicker__week-number {
+  color: #ccc;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem;
+}
+.react-datepicker__week-number.react-datepicker__week-number--clickable {
+  cursor: pointer;
+}
+.react-datepicker__week-number.react-datepicker__week-number--clickable:hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+  white-space: nowrap;
+}
+
+.react-datepicker__day-names {
+  margin-bottom: -8px;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #000;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem;
+}
+
+.react-datepicker__month--selected, .react-datepicker__month--in-selecting-range, .react-datepicker__month--in-range,
+.react-datepicker__quarter--selected,
+.react-datepicker__quarter--in-selecting-range,
+.react-datepicker__quarter--in-range {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff;
+}
+.react-datepicker__month--selected:hover, .react-datepicker__month--in-selecting-range:hover, .react-datepicker__month--in-range:hover,
+.react-datepicker__quarter--selected:hover,
+.react-datepicker__quarter--in-selecting-range:hover,
+.react-datepicker__quarter--in-range:hover {
+  background-color: #1d5d90;
+}
+.react-datepicker__month--disabled,
+.react-datepicker__quarter--disabled {
+  color: #ccc;
+  pointer-events: none;
+}
+.react-datepicker__month--disabled:hover,
+.react-datepicker__quarter--disabled:hover {
+  cursor: default;
+  background-color: transparent;
+}
+
+.react-datepicker__day,
+.react-datepicker__month-text,
+.react-datepicker__quarter-text,
+.react-datepicker__year-text {
+  cursor: pointer;
+}
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+}
+.react-datepicker__day--today,
+.react-datepicker__month-text--today,
+.react-datepicker__quarter-text--today,
+.react-datepicker__year-text--today {
+  font-weight: bold;
+}
+.react-datepicker__day--highlighted,
+.react-datepicker__month-text--highlighted,
+.react-datepicker__quarter-text--highlighted,
+.react-datepicker__year-text--highlighted {
+  border-radius: 0.3rem;
+  background-color: #3dcc4a;
+  color: #fff;
+}
+.react-datepicker__day--highlighted:hover,
+.react-datepicker__month-text--highlighted:hover,
+.react-datepicker__quarter-text--highlighted:hover,
+.react-datepicker__year-text--highlighted:hover {
+  background-color: #32be3f;
+}
+.react-datepicker__day--highlighted-custom-1,
+.react-datepicker__month-text--highlighted-custom-1,
+.react-datepicker__quarter-text--highlighted-custom-1,
+.react-datepicker__year-text--highlighted-custom-1 {
+  color: magenta;
+}
+.react-datepicker__day--highlighted-custom-2,
+.react-datepicker__month-text--highlighted-custom-2,
+.react-datepicker__quarter-text--highlighted-custom-2,
+.react-datepicker__year-text--highlighted-custom-2 {
+  color: green;
+}
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff;
+}
+.react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover,
+.react-datepicker__month-text--selected:hover,
+.react-datepicker__month-text--in-selecting-range:hover,
+.react-datepicker__month-text--in-range:hover,
+.react-datepicker__quarter-text--selected:hover,
+.react-datepicker__quarter-text--in-selecting-range:hover,
+.react-datepicker__quarter-text--in-range:hover,
+.react-datepicker__year-text--selected:hover,
+.react-datepicker__year-text--in-selecting-range:hover,
+.react-datepicker__year-text--in-range:hover {
+  background-color: #1d5d90;
+}
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  border-radius: 0.3rem;
+  background-color: #2579ba;
+  color: #fff;
+}
+.react-datepicker__day--keyboard-selected:hover,
+.react-datepicker__month-text--keyboard-selected:hover,
+.react-datepicker__quarter-text--keyboard-selected:hover,
+.react-datepicker__year-text--keyboard-selected:hover {
+  background-color: #1d5d90;
+}
+.react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range),
+.react-datepicker__month-text--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range),
+.react-datepicker__quarter-text--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range),
+.react-datepicker__year-text--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range) {
+  background-color: rgba(33, 107, 165, 0.5);
+}
+.react-datepicker__month--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__month--selecting-range .react-datepicker__month-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__month--selecting-range .react-datepicker__quarter-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__month--selecting-range .react-datepicker__year-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range) {
+  background-color: #f0f0f0;
+  color: #000;
+}
+.react-datepicker__day--disabled,
+.react-datepicker__month-text--disabled,
+.react-datepicker__quarter-text--disabled,
+.react-datepicker__year-text--disabled {
+  cursor: default;
+  color: #ccc;
+}
+.react-datepicker__day--disabled:hover,
+.react-datepicker__month-text--disabled:hover,
+.react-datepicker__quarter-text--disabled:hover,
+.react-datepicker__year-text--disabled:hover {
+  background-color: transparent;
+}
+
+.react-datepicker__month-text.react-datepicker__month--selected:hover, .react-datepicker__month-text.react-datepicker__month--in-range:hover, .react-datepicker__month-text.react-datepicker__quarter--selected:hover, .react-datepicker__month-text.react-datepicker__quarter--in-range:hover,
+.react-datepicker__quarter-text.react-datepicker__month--selected:hover,
+.react-datepicker__quarter-text.react-datepicker__month--in-range:hover,
+.react-datepicker__quarter-text.react-datepicker__quarter--selected:hover,
+.react-datepicker__quarter-text.react-datepicker__quarter--in-range:hover {
+  background-color: #216ba5;
+}
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover {
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.react-datepicker__year-read-view,
+.react-datepicker__month-read-view,
+.react-datepicker__month-year-read-view {
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  position: relative;
+}
+.react-datepicker__year-read-view:hover,
+.react-datepicker__month-read-view:hover,
+.react-datepicker__month-year-read-view:hover {
+  cursor: pointer;
+}
+.react-datepicker__year-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__year-read-view:hover .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view:hover .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover .react-datepicker__month-read-view--down-arrow {
+  border-top-color: #b3b3b3;
+}
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  transform: rotate(135deg);
+  right: -16px;
+  top: 0;
+}
+
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown,
+.react-datepicker__month-year-dropdown {
+  background-color: #f0f0f0;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 30px;
+  z-index: 1;
+  text-align: center;
+  border-radius: 0.3rem;
+  border: 1px solid #aeaeae;
+}
+.react-datepicker__year-dropdown:hover,
+.react-datepicker__month-dropdown:hover,
+.react-datepicker__month-year-dropdown:hover {
+  cursor: pointer;
+}
+.react-datepicker__year-dropdown--scrollable,
+.react-datepicker__month-dropdown--scrollable,
+.react-datepicker__month-year-dropdown--scrollable {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.react-datepicker__year-option,
+.react-datepicker__month-option,
+.react-datepicker__month-year-option {
+  line-height: 20px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.react-datepicker__year-option:first-of-type,
+.react-datepicker__month-option:first-of-type,
+.react-datepicker__month-year-option:first-of-type {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.react-datepicker__year-option:last-of-type,
+.react-datepicker__month-option:last-of-type,
+.react-datepicker__month-year-option:last-of-type {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.react-datepicker__year-option:hover,
+.react-datepicker__month-option:hover,
+.react-datepicker__month-year-option:hover {
+  background-color: #ccc;
+}
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-upcoming,
+.react-datepicker__month-option:hover .react-datepicker__navigation--years-upcoming,
+.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-upcoming {
+  border-bottom-color: #b3b3b3;
+}
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-previous,
+.react-datepicker__month-option:hover .react-datepicker__navigation--years-previous,
+.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-previous {
+  border-top-color: #b3b3b3;
+}
+.react-datepicker__year-option--selected,
+.react-datepicker__month-option--selected,
+.react-datepicker__month-year-option--selected {
+  position: absolute;
+  left: 15px;
+}
+
+.react-datepicker__close-icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0 6px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.react-datepicker__close-icon::after {
+  cursor: pointer;
+  background-color: #216ba5;
+  color: #fff;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  content: "×";
+}
+
+.react-datepicker__today-button {
+  background: #f0f0f0;
+  border-top: 1px solid #aeaeae;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0;
+  clear: left;
+}
+
+.react-datepicker__portal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2147483647;
+}
+.react-datepicker__portal .react-datepicker__day-name,
+.react-datepicker__portal .react-datepicker__day,
+.react-datepicker__portal .react-datepicker__time-name {
+  width: 3rem;
+  line-height: 3rem;
+}
+@media (max-width: 400px), (max-height: 550px) {
+  .react-datepicker__portal .react-datepicker__day-name,
+.react-datepicker__portal .react-datepicker__day,
+.react-datepicker__portal .react-datepicker__time-name {
+    width: 2rem;
+    line-height: 2rem;
+  }
+}
+.react-datepicker__portal .react-datepicker__current-month,
+.react-datepicker__portal .react-datepicker-time__header {
+  font-size: 1.44rem;
+}
+

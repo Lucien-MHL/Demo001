@@ -1,0 +1,47 @@
+@use '../mainVariable';
+
+.search_component {
+  width: 190px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 2px;
+  left: 196.5px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #a0a0a0;
+  border-radius: 30px;
+  padding: 6px 8px;
+
+  .magnifier {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    cursor: pointer;
+    padding: 9.5px;
+
+    svg {
+      display: block;
+      fill: #fff;
+    }
+  }
+
+  .searchBar {
+    border: none;
+    background-color: transparent;
+    padding-left: 13px;
+    height: 100%;
+    width: calc(100% - 21px);
+    font-size: 20px;
+    color: #515151;
+
+    &::placeholder {
+      font-size: 20px;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

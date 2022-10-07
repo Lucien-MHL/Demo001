@@ -1,0 +1,10 @@
+@use './mixins';
+
+// --------filter
+.filter_btn {
+  @include mixins.btn_default();
+}
+.filter_fontz {
+  @include mixins.btn_default_text(1rem);
+  padding-right: 0.875rem;
+}

@@ -1,0 +1,86 @@
+@use '../mixins';
+@use '../reset';
+
+.stations_group {
+  @include mixins.flex-wrap(wrap, row);
+
+  .card_container {
+    margin: 0 0.5rem 1rem;
+    @include mixins.container(25rem, 20.75rem);
+    @include mixins.border-line(1.25rem, mixins.$tertiary-color);
+    z-index: 2;
+
+    .card_wrap {
+      @include mixins.flex-wrap(nowrap, row);
+      @include mixins.flex-align-content(center, space-between);
+      @include mixins.border-radius(1.25rem, 1.25rem, 0, 0);
+      background-color: mixins.$all-transparent-background;
+      padding: 0rem 2rem 0rem 2rem;
+
+      .card_content {
+        @include mixins.container(8.125rem, 7.1875rem);
+
+        .card_list__small {
+          @include mixins.flex-wrap(nowrap, row);
+          @include mixins.flex-align-content(flex-start, space-between);
+
+          padding: 0.525rem 0.75rem;
+        }
+        li:first-child {
+          margin-top: 0.125rem;
+        }
+        li:nth-child(2) {
+          border-bottom: 0.0625rem solid mixins.$tertiary-color;
+          border-top: 0.0625rem solid mixins.$tertiary-color;
+        }
+      }
+      .card_name {
+        position: relative;
+
+        .warningSign {
+          display: block;
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          top: -25px;
+          right: -27px;
+        }
+
+        .card_title {
+          font-size: 1.5rem;
+          font-weight: 900;
+          @include mixins.flex-align-content(center, flex-end);
+        }
+        .card_subT {
+          @include mixins.flex-align-content(center, flex-end);
+          font-size: 1.25rem;
+          small {
+            margin-top: 0.2rem;
+            padding-left: 0.325rem;
+          }
+        }
+      }
+    }
+    .card_btm {
+      position: relative;
+      background-color: rgba(244, 244, 244, 0.5);
+      // z-index: -1;
+      padding: 12px 10px;
+      @include mixins.border-radius(0rem, 0rem, 1.25rem, 1.25rem);
+      border: 0 1px 1px 1px solid mixins.$tertiary-color;
+      @include mixins.flex-align-content(center, center);
+      &:before {
+        @include mixins.container(19rem, 10.125rem);
+        content: '';
+        display: block;
+        clear: both;
+        position: absolute;
+        top: 12px;
+        right: 32px;
+        width: 309px;
+        height: 177px;
+        background-color: mixins.$chart-transparent-background;
+      }
+    }
+  }
+}

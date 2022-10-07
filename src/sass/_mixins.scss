@@ -1,0 +1,77 @@
+$chart-primary-color: #cedf83;
+$chart-secondary-color: #34237f;
+$tertiary-color: rgba(120, 120, 120, 0.8);
+$all-transparent-background: rgba(255, 255, 255, 0.55);
+$chart-transparent-background: rgba(255, 255, 255, 0.8);
+$scrollbar-track-color: #f0f0f0;
+$scrollbar-thumb-color: #444;
+
+// ----------------content alignment--------------
+@mixin flex-wrap($wrap, $direction) {
+  display: flex;
+  flex-wrap: $wrap;
+  flex-direction: $direction;
+}
+
+@mixin flex-align-content($V-position, $H-position) {
+  display: flex;
+  align-items: $V-position;
+  justify-content: $H-position;
+}
+
+// ----------------container--------------
+@mixin container($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+// ----------------Layout--------------
+@mixin border-radius($top, $rit, $btm, $lft) {
+  border-top-left-radius: $top;
+  border-top-right-radius: $rit;
+  border-bottom-right-radius: $btm;
+  border-bottom-left-radius: $lft;
+}
+
+@mixin border-line($radius, $color) {
+  border-radius: $radius;
+  border: 1px solid $color;
+}
+
+// ------------scrollbar------------
+@mixin scrollbar($track-color, $thumb-color) {
+  overflow-y: overlay;
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 2 2 6px rgba(0, 0, 0, 0.3);
+    background-color: $track-color;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $thumb-color;
+  }
+}
+
+// --------------button--------------
+@mixin btn_default() {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0.625rem;
+}
+
+@mixin btn_default_text($font_z) {
+  font-size: $font_z;
+  line-height: 1.5;
+}
+
+//-------------fontSize---------
+@mixin content_size($font-z, $font-w, $letter-s) {
+  font-size: $font-z;
+  font-weight: $font-w;
+  letter-spacing: $letter-s;
+}
