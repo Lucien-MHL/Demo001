@@ -304,6 +304,8 @@ const SideMenu = styled.section`
 
 const inverterDate = fakeInverterData()
 
+console.log(inverterDate)
+
 function DeviceOfStation() {
   const [switchMenu, setSwitchMenu] = useState(false)
   const [chartArray, setChartArray] = useState([inverterDate[0].charDate[0]])

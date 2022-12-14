@@ -8,7 +8,7 @@ module.exports = {
       directory: path.join(__dirname, 'dist')
     },
     compress: true,
-    port: 7777,
+    port: 3333,
     historyApiFallback: true
   },
   entry: './src/index.jsx',
